@@ -11,12 +11,8 @@
             "id": "e2c899fa645d2d2c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev Notes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Dev Notes.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -141,8 +133,6 @@
   },
   "active": "e2c899fa645d2d2c",
   "lastOpenFiles": [
-    "Test note.md",
-    "React/React notes.md",
-    "2022-10-19.md"
+    "React notes.md"
   ]
 }
