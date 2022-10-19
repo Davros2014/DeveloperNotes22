@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d552722c7c723cf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Test note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React notes.md",
+                "file": "Test note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React notes.md",
+                "file": "Test note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React notes.md"
+                "file": "Test note.md"
               }
             }
           }
@@ -139,6 +152,8 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "e2c899fa645d2d2c",
-  "lastOpenFiles": []
+  "active": "d552722c7c723cf2",
+  "lastOpenFiles": [
+    "React notes.md"
+  ]
 }
