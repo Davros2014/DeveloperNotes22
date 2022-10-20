@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React notes.md",
+                "file": "Intrexx/Creating an application.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/React notes.md",
+                "file": "Intrexx/Creating an application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/React notes.md",
+                "file": "Intrexx/Creating an application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React notes.md"
+                "file": "Intrexx/Creating an application.md"
               }
             }
           }
@@ -141,6 +141,8 @@
   },
   "active": "e2c899fa645d2d2c",
   "lastOpenFiles": [
+    "React/React notes.md",
+    "Intrexx/Creating an application.md",
     "React notes.md"
   ]
 }
