@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React cheatsheet.md",
+                "file": "Styled Components/Theming with Styled components.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/React cheatsheet.md",
+                "file": "Styled Components/Theming with Styled components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/React cheatsheet.md",
+                "file": "Styled Components/Theming with Styled components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React cheatsheet.md"
+                "file": "Styled Components/Theming with Styled components.md"
               }
             }
           }
@@ -142,6 +142,7 @@
   },
   "active": "00ce8a4d9be71b15",
   "lastOpenFiles": [
+    "React/React cheatsheet.md",
     "React/Large scale apps.md",
     "React/Common mistakes.md",
     "Coding_challenges/Front-end challenges.md",
@@ -150,7 +151,6 @@
     "Javascript/D3 smooth animation.md",
     "Typescript/Best practices.md",
     "React/Toggle Switch.md",
-    "Javascript/Direction aware hover effect.md",
-    "React/useEffect.md"
+    "Javascript/Direction aware hover effect.md"
   ]
 }
