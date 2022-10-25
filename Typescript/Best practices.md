@@ -1,0 +1,1 @@
+https://medium.com/swlh/typescript-best-practices-useless-interfaces-classes-and-promises-40ef6bdefa1b

@@ -1,1 +1,1 @@
-![[Screen Shot 2022-10-25 at 23.25.33 1.png]]
+![[react-lifecycle-methods.png]]

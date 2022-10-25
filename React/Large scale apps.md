@@ -1,0 +1,1 @@
+https://javascript.plainenglish.io/setting-up-a-large-scale-react-application-2d50bc8a5ddb
