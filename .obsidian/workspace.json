@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "0328816b2eb6c1a3",
+            "id": "c477ec681fe67d4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,63 +32,19 @@
             }
           },
           {
-            "id": "78fad4763a2f3599",
+            "id": "0efd001db7cce922",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deployment/Installing Heroku.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40f2f45461d06de2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MongoDB/Installing MongoDB on Mac.md",
+                "file": "Git-commands/Git basics.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "a47a3a53b824f880",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Javascript/Loop through objects in JS.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "792bad2433aa4d79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deployment/Installing Heroku.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d8bd08e13c4031e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MongoDB/Installing MongoDB on Mac.md",
+                "file": "Git-commands/Git basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MongoDB/Installing MongoDB on Mac.md",
+                "file": "Git-commands/Git basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MongoDB/Installing MongoDB on Mac.md"
+                "file": "Git-commands/Git basics.md"
               }
             }
           }
@@ -202,21 +158,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "40f2f45461d06de2",
+  "active": "0efd001db7cce922",
   "lastOpenFiles": [
     "Deployment/Installing Heroku.md",
-    "HTML/HTML One-Liners.md",
-    "Terminal-bash/Untitled.md",
+    "WorkSystems/Directory paths etc.md",
     "Untitled.md",
     "Intrexx/Creating an application.md",
-    "Javascript/Loop through objects in JS.md",
-    "2022-10-20.md",
     "React/React notes.md",
     "React notes.md"
   ]

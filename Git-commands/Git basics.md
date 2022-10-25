@@ -1,0 +1,1 @@
+Probelms pushing to PC: git config --global core.autocrlf false  
