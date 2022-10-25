@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "a47a3a53b824f880",
+            "id": "c477ec681fe67d4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Loop through objects in JS.md",
-                "mode": "preview",
+                "file": "WorkSystems/Directory paths etc.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Javascript/Loop through objects in JS.md",
+                "file": "WorkSystems/Directory paths etc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Javascript/Loop through objects in JS.md",
+                "file": "WorkSystems/Directory paths etc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Loop through objects in JS.md"
+                "file": "WorkSystems/Directory paths etc.md"
               }
             }
           }
@@ -152,11 +152,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "a47a3a53b824f880",
+  "active": "c477ec681fe67d4e",
   "lastOpenFiles": [
+    "Untitled.md",
     "Intrexx/Creating an application.md",
-    "2022-10-20.md",
-    "Javascript/Loop through objects in JS.md",
     "React/React notes.md",
     "React notes.md"
   ]
