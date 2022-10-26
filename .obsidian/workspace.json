@@ -8,39 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e2c899fa645d2d2c",
+            "id": "00ce8a4d9be71b15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrexx/Creating an application.md",
+                "file": "React/Styled_components/Theming with styled components.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "c477ec681fe67d4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deployment/Installing Heroku.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0efd001db7cce922",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -69,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Theming",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 251.50271224975586
   },
   "right": {
     "id": "4c619935fdcd0d44",
@@ -106,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "React/Styled_components/Theming with styled components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "React/Styled_components/Theming with styled components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,27 +125,32 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "React/Styled_components/Theming with styled components.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "4fd2ff55673b2b08",
+  "active": "00ce8a4d9be71b15",
   "lastOpenFiles": [
-    "Git-commands/Git basics.md",
-    "Deployment/Installing Heroku.md",
-    "WorkSystems/Directory paths etc.md",
-    "Untitled.md",
-    "Intrexx/Creating an application.md",
-    "React/React notes.md",
-    "React notes.md"
+    "Styled Components/Theming with Styled components.md",
+    "React/React cheatsheet.md",
+    "React/Large scale apps.md",
+    "React/Common mistakes.md",
+    "Coding_challenges/Front-end challenges.md",
+    "Coding_challenges/Websites.md",
+    "Extensions_apps/Chrome extensions.md",
+    "Javascript/D3 smooth animation.md",
+    "Typescript/Best practices.md",
+    "React/Toggle Switch.md"
   ]
 }
