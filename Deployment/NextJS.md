@@ -1,4 +1,4 @@
-Next_js Setup with Typescript.
+###### Next_js Setup with Typescript.
 
 1. npx create-next-app@latest --t
 
@@ -8,7 +8,7 @@ Next_js Setup with Typescript.
 
   
 
-From hereon in if you have an existing project you wish to convert to using typescript
+###### From hereon in if you have an existing project you wish to convert to using typescript
 
 3. add typescript
 

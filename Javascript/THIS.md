@@ -101,7 +101,7 @@ BIND thisArg, a, b, c, d, e... NO
 
 
 	var person = {
-	  firstName: "Colt",
+	  firstName: "Dave",
 	  sayHi: function() {
 	    return "Hi " + this.firstName;
 	  },
@@ -117,7 +117,7 @@ BIND thisArg, a, b, c, d, e... NO
 			},
 	}
 	  
-	person.dog.sayHello.call(person) // returns "Hello Colt"
+	person.dog.sayHello.call(person) // returns "Hello Dave"
 	person.dog.determineContext.call(person) // returns true 
 	
 	// using call worked
@@ -125,8 +125,8 @@ BIND thisArg, a, b, c, d, e... NO
 	
 > 	USING CALL IN THE WILD
 	
-	var colt = {
-	  firstName: "Colt",
+	var dave = {
+	  firstName: "Dave",
 	  sayHi: function() {
 	    return "Hi " + this.firstName;
 	  }
@@ -138,13 +138,13 @@ BIND thisArg, a, b, c, d, e... NO
 	    return "Hi " + this.firstName;
 	  }
 	}
-	colt.sayHi(); // Hi Colt
+	dave.sayHi(); // Hi Dave
 	elie.sayHi(); // Hi Elie
 	
 >	Using call
 	
-	var colt = {
-	  firstName: "Colt",
+	var dave = {
+	  firstName: "Dave",
 	  sayHi: function() {
 	    return "Hi " + this.firstName;
 	  }
@@ -153,7 +153,7 @@ BIND thisArg, a, b, c, d, e... NO
 	  firstName: "Elie",
 	}
 	
-	colt.sayHi.call(elie) // returns "Hi Elie"
+	dave.sayHi.call(elie) // returns "Hi Elie"
 	
 >	improving the logic
 	
@@ -161,18 +161,18 @@ BIND thisArg, a, b, c, d, e... NO
 	  return "Hi " + this,firstName; 
 	}
 	
-	var colt = {
-	  firstName: "Colt",
+	var dave = {
+	  firstName: "Dave",
 	}
 	var elie = {
 	  firstName: "Elie",
 	}
 	
 	sayHi.call(elie); // returns "Hi Elie";
-	sayHi.call(colt); // returns "Hi Colt";
+	sayHi.call(dave); // returns "Hi Dave";
 	
 	
->	SELECTING divs ON A PAGE
+>	SELECTING DIVS ON A PAGE
 	
 	// you might weant to return all divs that have innerText of "SomeSpecificText"
 	var divs  = document.getElementByTagName('div');
@@ -194,23 +194,23 @@ BIND thisArg, a, b, c, d, e... NO
 	function sayHi() {
 	  return "Hi " + this,firstName; 
 	}
-	var colt = {
-	  firstName: "Colt",
+	var dave = {
+	  firstName: "Dave",
 	}
 	var elie = {
 	  firstName: "Elie",
 	}
 	
 	sayHi.apply(elie); // returns "Hi Elie";
-	sayHi.apply(colt); // returns "Hi Colt";
+	sayHi.apply(colt); // returns "Hi Dave";
 	
 	// does pretty much the same as CALL until we add arguments
 	
 	function addNumbers(a, b, c, d) {
 	  return this.firstName = just calculated " + (a+ b+ c+ d)"
 	}
-	var colt = {
-	  firstName: "Colt",
+	var dave = {
+	  firstName: "Dave",
 	}
 	var elie = {
 	  firstName: "Elie",
@@ -252,8 +252,8 @@ The paramenters work like call, but bind returns a function with the context of 
 	
 	BIND IN THE WILD
 	
-	var colt = {
-		firstName: "Colt",
+	var dave = {
+		firstName: "Dave",
 	  sayHi: function() {
 			setTimeout(function() {
 	      console.log("Hi " + this.firstName.bind(this));
@@ -268,7 +268,7 @@ The paramenters work like call, but bind returns a function with the context of 
 	    }.bind(this), 1000);
 	  }
 	}
-	// returns "Hi Colt" after 1 second
+	// returns "Hi Dave" after 1 second
 
 #### 4 - NEW
 
