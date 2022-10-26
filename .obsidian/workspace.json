@@ -4,19 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "68c33561e76fb4f8",
+        "id": "7c012ad5207001b8",
         "type": "tabs",
         "children": [
           {
-            "id": "00ce8a4d9be71b15",
+            "id": "cdf27820d332093d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/Styled_components/Theming with styled components.md",
+                "file": "Javascript/THIS.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "2580932976ee7ce5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/Styled_components/Theming with styled components.md",
+                "file": "Javascript/THIS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/Styled_components/Theming with styled components.md",
+                "file": "Javascript/THIS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/Styled_components/Theming with styled components.md"
+                "file": "Javascript/THIS.md"
               }
             }
           }
@@ -140,17 +148,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "00ce8a4d9be71b15",
+  "active": "cdf27820d332093d",
   "lastOpenFiles": [
-    "Styled Components/Theming with Styled components.md",
-    "React/React cheatsheet.md",
-    "React/Large scale apps.md",
-    "React/Common mistakes.md",
-    "Coding_challenges/Front-end challenges.md",
-    "Coding_challenges/Websites.md",
-    "Extensions_apps/Chrome extensions.md",
-    "Javascript/D3 smooth animation.md",
-    "Typescript/Best practices.md",
-    "React/Toggle Switch.md"
+    "Javascript/Keyword - THIS 1.md",
+    "Javascript/THIS.md",
+    "Javascript/Closures.md",
+    "Tech_path/Apps to build.md",
+    "Javascript/Loop through objects in JS.md",
+    "Javascript/js_strings_cheat_sheet.jpg",
+    "Javascript/JS strings cheat sheet.md",
+    "Javascript/Functions - must know.md",
+    "Javascript/Direction aware hover effect.md",
+    "Javascript/Desctructuring.md"
   ]
 }

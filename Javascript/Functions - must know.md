@@ -1,0 +1,1 @@
+https://javascript.plainenglish.io/you-must-understand-these-14-javasript-functions-1f4fa1c620e2
