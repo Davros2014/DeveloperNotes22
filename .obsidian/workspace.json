@@ -4,36 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c50b13a07b765db7",
+        "id": "68c33561e76fb4f8",
         "type": "tabs",
         "children": [
           {
-            "id": "f65cb1de7229f25c",
+            "id": "0efd001db7cce922",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS_SASS/Modern CSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f2504999017775b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS_SASS/CSS tricks for better UX.md",
+                "file": "Debugging/Console.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1,
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -62,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Theming",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.50271224975586
+    "width": 300
   },
   "right": {
     "id": "4c619935fdcd0d44",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS_SASS/CSS tricks for better UX.md",
+                "file": "Debugging/Console.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS_SASS/CSS tricks for better UX.md",
+                "file": "Debugging/Console.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS_SASS/CSS tricks for better UX.md"
+                "file": "Debugging/Console.md"
               }
             }
           }
@@ -147,23 +133,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8f2504999017775b",
+  "active": "0efd001db7cce922",
   "lastOpenFiles": [
-    "CSS_SASS/Modern CSS.md",
-    "CSS_SASS/Practical css.md",
-    "CSS_SASS/Animations.md",
-    "CSS_SASS/Cool css.md",
+    "Deployment/Installing Heroku.md",
+    "Debugging/element.png.png",
+    "Debugging/Console.md",
+    "Deployment/Github pages - react.md",
     "React/Styled_components/Mixins with Styled Components.md",
-    "Figma/3D Perspective.md",
-    "Extensions_apps/VS Code extensions.md",
-    "Extensions_apps/Chrome extensions.md",
-    "Deployment/Vercel.md",
-    "Deployment/NextJS.md"
+    "Javascript/Alternative to D3.md",
+    "Javascript/JS strings cheat sheet.md",
+    "Javascript/js_strings_cheat_sheet.jpg",
+    "Javascript/Desctructuring.md",
+    "Javascript/D3 smooth animation.md"
   ]
 }
