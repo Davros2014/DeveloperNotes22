@@ -4,22 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "68c33561e76fb4f8",
+        "id": "9fd3ac266cdf75f1",
         "type": "tabs",
         "children": [
           {
-            "id": "0efd001db7cce922",
+            "id": "93258ad980d157f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Debugging/Console.md",
+                "file": "Intrexx/Creating an application.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -48,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Theming",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 251.50271224975586
   },
   "right": {
     "id": "4c619935fdcd0d44",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Debugging/Console.md",
+                "file": "Intrexx/Creating an application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Debugging/Console.md",
+                "file": "Intrexx/Creating an application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Debugging/Console.md"
+                "file": "Intrexx/Creating an application.md"
               }
             }
           }
@@ -133,23 +134,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "0efd001db7cce922",
+  "active": "93258ad980d157f0",
   "lastOpenFiles": [
-    "Deployment/Installing Heroku.md",
-    "Debugging/element.png.png",
-    "Debugging/Console.md",
-    "Deployment/Github pages - react.md",
-    "React/Styled_components/Mixins with Styled Components.md",
-    "Javascript/Alternative to D3.md",
-    "Javascript/JS strings cheat sheet.md",
-    "Javascript/js_strings_cheat_sheet.jpg",
-    "Javascript/Desctructuring.md",
-    "Javascript/D3 smooth animation.md"
+    "HTML/HTML One-Liners.md",
+    "Git_commands/Pull request.md",
+    "Git_commands/Git inside VS code.md",
+    "Git_commands/Git basics.md",
+    "Git_commands/Automate JS dependencies update.md",
+    "Fonts_typography/Typography for developers.md",
+    "Fonts_typography/Sass type mixins.md",
+    "Fonts_typography/Google fonts with Sass.md",
+    "Fonts_typography/CSS type units.md",
+    "Extensions_apps/VS Code extensions.md"
   ]
 }

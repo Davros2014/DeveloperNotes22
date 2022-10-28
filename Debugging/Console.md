@@ -7,4 +7,3 @@ https://mattburgess.medium.com/beyond-console-log-2400fdf4a9d8
 
 
 ![[element.png.png]]
-![[element.png.png]]

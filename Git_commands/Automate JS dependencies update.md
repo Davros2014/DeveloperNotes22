@@ -1,0 +1,1 @@
+https://cloudfour.com/thinks/auto-update-js-dependencies/

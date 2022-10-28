@@ -1,0 +1,1 @@
+https://interface.fh-potsdam.de/future-retro/Streemmagazin/
