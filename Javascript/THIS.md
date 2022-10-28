@@ -27,8 +27,7 @@ When "this" is not inside of a declared object
 	}  
 	​  
 	whatIsThis() // undefined - when strict mode is enabled  
-	​  
-	================  
+	​    
 	    
 	function vaiableInThis() {  
 	  this.person = "elie"  
