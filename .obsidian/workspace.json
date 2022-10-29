@@ -4,47 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "68c33561e76fb4f8",
+        "id": "9fd3ac266cdf75f1",
         "type": "tabs",
         "children": [
           {
-            "id": "f20d3311168c0236",
+            "id": "d20372029ae05c19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Akumina/Term store.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b13e14591bb728a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Akumina/Populating Libraries.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "126fface030a54a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git_commands/Push.md",
+                "file": "Webpack/Setting up webpack 5.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -73,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Theming",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 251.50271224975586
   },
   "right": {
     "id": "4c619935fdcd0d44",
@@ -110,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git_commands/Push.md",
+                "file": "Webpack/Setting up webpack 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git_commands/Push.md",
+                "file": "Webpack/Setting up webpack 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git_commands/Push.md"
+                "file": "Webpack/Setting up webpack 5.md"
               }
             }
           }
@@ -158,20 +134,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
-  "active": "126fface030a54a2",
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "d20372029ae05c19",
   "lastOpenFiles": [
-    "Akumina/Populating Libraries.md",
-    "Akumina/Term store.md",
+    "Typescript/01_Typescript Basics.md",
     "Akumina/Adding CSS.md",
+    "Typescript/Best practices.md",
     "Akumina/02_Documentation.md",
     "Akumina/01_Basic installation.md",
-    "Akumina/Workspaces.md",
-    "Akumina/Working with Sharepoint.md",
-    "Akumina/Widgets.md",
-    "Akumina/Broadcast Center.md",
-    "Akumina/Akumina & Teams As A Canvas.md"
+    "Extensions_apps/Chrome extensions.md",
+    "Intrexx/Creating an application.md",
+    "HTML/HTML One-Liners.md",
+    "Git_commands/Pull request.md",
+    "Git_commands/Git inside VS code.md"
   ]
 }
