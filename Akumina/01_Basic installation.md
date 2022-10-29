@@ -23,6 +23,8 @@ To correct the version of webpack needed use > npm uninstall  webpack-cli
 
 And install version 3.3.12 > npm i webpack-cli@3.3.12
 
+To start site > npm start
+
 ------------------------------------
 
 ### Environment and deployment steps
@@ -75,3 +77,4 @@ In the akumina.sitedeployer.config.json file:
 	  ]
 	}
 
+If you make changes to the above run the follwoing afterwards > npm run deploy
