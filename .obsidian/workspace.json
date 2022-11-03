@@ -4,23 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "9fd3ac266cdf75f1",
+        "id": "68c33561e76fb4f8",
         "type": "tabs",
         "children": [
           {
-            "id": "d20372029ae05c19",
+            "id": "f20d3311168c0236",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Webpack/Setting up webpack 5.md",
+                "file": "Akumina/Term store.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b13e14591bb728a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Akumina/Populating Libraries.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b5012d438ec40235",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/Back up with Obsidian Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6eee471150fa76bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/Plug-ins.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f3df957f270a539",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/Back up with Obsidian Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62a6c5b2acd09bbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03_useful_links.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "stacked": true
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -49,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Theming",
+                "query": "tag:#-",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.50271224975586
+    "width": 300
   },
   "right": {
     "id": "4c619935fdcd0d44",
@@ -86,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Webpack/Setting up webpack 5.md",
+                "file": "03_useful_links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Webpack/Setting up webpack 5.md",
+                "file": "03_useful_links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Webpack/Setting up webpack 5.md"
+                "file": "03_useful_links.md"
               }
             }
           }
@@ -134,23 +194,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "d20372029ae05c19",
+  "active": "62a6c5b2acd09bbe",
   "lastOpenFiles": [
+    "Obsidian/Back up with Obsidian Git.md",
+    "Obsidian/Basics.md",
+    "Obsidian/Plug-ins.md",
+    "Coding_best_practices/DRY-KISS.md",
+    "Akumina/Populating Libraries.md",
+    "Akumina/Akumina & Teams As A Canvas.md",
+    "Azure_DevOps/Deployment Guide.md",
     "Typescript/01_Typescript Basics.md",
-    "Akumina/Adding CSS.md",
-    "Typescript/Best practices.md",
-    "Akumina/02_Documentation.md",
-    "Akumina/01_Basic installation.md",
-    "Extensions_apps/Chrome extensions.md",
-    "Intrexx/Creating an application.md",
-    "HTML/HTML One-Liners.md",
-    "Git_commands/Pull request.md",
-    "Git_commands/Git inside VS code.md"
+    "Azure_DevOps/Pasted image 20221101171002.png",
+    "Azure_DevOps/Pasted image 20221101171114.png"
   ]
 }
