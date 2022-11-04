@@ -73,8 +73,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_useful_links.md",
-                "mode": "source",
+                "file": "Akumina/02_Documentation.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03_useful_links.md",
+                "file": "Akumina/02_Documentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03_useful_links.md",
+                "file": "Akumina/02_Documentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_useful_links.md"
+                "file": "Akumina/02_Documentation.md"
               }
             }
           }
@@ -199,15 +199,15 @@
   },
   "active": "62a6c5b2acd09bbe",
   "lastOpenFiles": [
-    "Obsidian/Back up with Obsidian Git.md",
-    "Obsidian/Basics.md",
-    "Obsidian/Plug-ins.md",
-    "Coding_best_practices/DRY-KISS.md",
-    "Akumina/Populating Libraries.md",
+    "Akumina/01_Basic_installation.md",
+    "Akumina/02_Documentation.md",
+    "Akumina/Adding CSS.md",
     "Akumina/Akumina & Teams As A Canvas.md",
-    "Azure_DevOps/Deployment Guide.md",
-    "Typescript/01_Typescript Basics.md",
-    "Azure_DevOps/Pasted image 20221101171002.png",
-    "Azure_DevOps/Pasted image 20221101171114.png"
+    "Akumina/Broadcast Center.md",
+    "Akumina/Populating Libraries.md",
+    "Akumina/Term store.md",
+    "Akumina/Working with Sharepoint.md",
+    "Akumina/Workspaces.md",
+    "03_useful_links.md"
   ]
 }

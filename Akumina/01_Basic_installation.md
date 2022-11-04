@@ -77,4 +77,4 @@ In the akumina.sitedeployer.config.json file:
 	  ]
 	}
 
-If you make changes to the above run the follwoing afterwards > npm run deploy
+If you make changes to the above run the following afterwards > npm run deploy
