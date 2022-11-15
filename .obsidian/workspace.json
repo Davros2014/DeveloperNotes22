@@ -73,8 +73,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Akumina/02_Documentation.md",
-                "mode": "preview",
+                "file": "Akumina/Adding CSS.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Akumina/02_Documentation.md",
+                "file": "Akumina/Adding CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Akumina/02_Documentation.md",
+                "file": "Akumina/Adding CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Akumina/02_Documentation.md"
+                "file": "Akumina/Adding CSS.md"
               }
             }
           }
@@ -199,15 +199,15 @@
   },
   "active": "62a6c5b2acd09bbe",
   "lastOpenFiles": [
-    "Akumina/01_Basic_installation.md",
+    "Akumina/Workspaces.md",
+    "Akumina/Working with Sharepoint.md",
+    "Akumina/Term store.md",
     "Akumina/02_Documentation.md",
+    "Akumina/01_Basic_installation.md",
     "Akumina/Adding CSS.md",
     "Akumina/Akumina & Teams As A Canvas.md",
     "Akumina/Broadcast Center.md",
     "Akumina/Populating Libraries.md",
-    "Akumina/Term store.md",
-    "Akumina/Working with Sharepoint.md",
-    "Akumina/Workspaces.md",
     "03_useful_links.md"
   ]
 }
