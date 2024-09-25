@@ -1,13 +1,13 @@
 
 
-#### v-model
+#### v-model || @model
 
 Binds data from input to a variable of the same name
 
 	<div>  
 	  <input v-model="greeting"/>`  
 	  {{ hello world }}  
-> 	</div>
+	</div>
 
 ### IF
 
@@ -18,13 +18,13 @@ Binds data from input to a variable of the same name
 	  }  
 	}
 
-#### v-if
+#### v-if 
 
 Removes element from DOM if value is falsey
 
 	<div v-if="isVisible" /div>
 
-#### v-else-if & v-else
+#### v-else-if & v-else 
 
 Will show v-if if "isVisible" is true, if not and "isAlsoVisible" is true it will display the div with v-else-if (there can be as many as required of these). Lstly will display the element with v-else
 
@@ -32,6 +32,9 @@ Will show v-if if "isVisible" is true, if not and "isAlsoVisible" is true it wil
 	<div v-else-if="isAlsoVisible" /div>  
 	<div v-else class=last box/div>
 
+#### v-show 
+
+If the visibility status shows a lot, it might be best to use v-show, it does not remove an element from the DOM but adds 'display: none' to the element to hide.
 ### v-cloak
 
 Will hide elements before the page is loaded - should be added to main app. When page is loaded v-cloak is removed fropm the #app element
@@ -81,7 +84,7 @@ A method can be passed to the click event as such and create method in the data 
 	  }  
 	} 
 
-### v-bind or : (for binding to html atrributes)
+### v-bind or : (for binding to html attributes)
 
 Will bind data from state to be passed down to child-component (aside: @submit.prevent = adds preventDefault() to function on submit)
 
@@ -91,8 +94,6 @@ Will bind data from state to be passed down to child-component (aside: @submit.p
 	  <a :href="url">Link to website</a>  
 	    
 	</form>  
-
-
 
 
 	
@@ -121,7 +122,7 @@ The following will log "greetings" to the console on pressigng the enter key
 	  }  
 	} 
 
-The following will call the function **greet** with whatever is appsed as an argument (**.enter being a modifier to the keyup event listener**)
+The following will call the function **greet** with whatever is passed as an argument (**.enter being a modifier to the keyup event listener**)
 
 	<input @keyup.enter=(greet(greeting + !!!!!))>  
 	​  
@@ -133,7 +134,7 @@ The following will call the function **greet** with whatever is appsed as an arg
 	methods: {  
 	  // other functions  
 	  greet(greeting) {  
-	    console.log(greeting) // logs "greetings!!!!!" Note: "this" not used as the argument comes from the value passed to the function itself  
+		    console.log(greeting) // logs "greetings!!!!!" Note: "this" not used as the argument comes from the value passed to the function itself  
 	  }  
 	} 
 

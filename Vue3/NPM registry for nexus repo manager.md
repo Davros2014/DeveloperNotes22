@@ -1,0 +1,1 @@
+npm config set registry [https://nexus.roqs.basf.net/repository/npm/](https://nexus.roqs.basf.net/repository/npm/ "https://nexus.roqs.basf.net/repository/npm/")

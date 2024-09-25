@@ -1,0 +1,2211 @@
+/*
+* #deprecationSupport.css
+* This file is used to support legacy css from the old portal. It contains classes used with custom controls or other non-standards in order to support
+* old standards during the migration. Contents of this file will be removed in future versions
+* 
+* @author DeckerM7
+* @since  1.0.0
+*/
+
+@charset "utf-8";
+
+.Datapicker {
+  background-color: #e0e9f2;
+  border-radius: 0;
+  border: 1px solid #d4e0ed;
+  padding: 20px 10px;
+  box-shadow: 0 5px 15px #bde5f5;
+  margin-top: 2px;
+}
+.Datapicker_Header_ColBG {
+  padding: 5px;
+  text-align: left;
+  height: 35px;
+  font-weight: normal;
+  border-bottom: 2px solid #004a96;
+  background-position: center right 6px;
+}
+.Datapicker_Header_ColBG a,
+.Datapicker_Header_ColBG a:link {
+  color: #004a96;
+}
+.Datapicker_Data_ColBG {
+  text-align: left;
+  vertical-align: middle;
+  padding: 0 5px;
+  border-bottom: 1px solid #99b6d4;
+  line-height: 38px;
+}
+.Datapicker_Data_Col_normal {
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 1px;
+  padding-top: 0;
+  padding-right: 1px;
+}
+.Datapicker_Data_Col_center {
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 0;
+}
+.Datapicker_Data_Col_number {
+  text-align: right;
+  vertical-align: middle;
+  padding-left: 1px;
+  padding-top: 0;
+  padding-right: 1px;
+}
+.Datapicker_Data_Row_Even:hover,
+.Datapicker_Data_Row_Even:focus,
+.Datapicker_Data_Row_Even_Over {
+  background-color: #d4e0ed;
+}
+.Datapicker_Data_Row_Even:hover td,
+.Datapicker_Data_Row_Even:focus td,
+.Datapicker_Data_Row_Even_Over td {
+  color: #000;
+}
+.Datapicker_Data_Row_Odd:hover,
+.Datapicker_Data_Row_Odd:focus,
+.Datapicker_Data_Row_Odd_Over {
+  background-color: #d4e0ed;
+}
+.Datapicker_Data_Row_Odd:hover td,
+.Datapicker_Data_Row_Odd:focus td,
+.Datapicker_Data_Row_Odd_Over td {
+  color: #000;
+}
+.Datapicker_Footer_Col {
+  font-style: italic;
+  font-size: 14.4px;
+  padding-left: 1px;
+  padding-top: 10px;
+}
+.Datapicker .Close {
+  outline: 0;
+  position: absolute;
+  top: 9px;
+  right: 8px;
+  background: url(../../images/assets/999_ApplicationStyle_GSSO/close_modal.svg?usn=442591404)
+    no-repeat;
+  opacity: 0.7;
+  width: 15px;
+  height: 15px;
+}
+.Datapicker .Close:hover {
+  background: url(../../images/assets/999_ApplicationStyle_GSSO/close_modal.svg?usn=442591404)
+    no-repeat;
+  opacity: 1;
+}
+.Datapicker table {
+  border: 0;
+}
+.Datapicker .pagination .additional {
+  display: none;
+}
+.Datapicker .pagination {
+  padding: 10px 15px 0 15px;
+}
+a.Text_Standard.dataPickerBtn img {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  top: 2px;
+  left: -1px;
+}
+a.dataPickerBtn.Text_Standard {
+  height: 23px;
+  width: 28px;
+  padding-left: 7px;
+  border: 0;
+  border-radius: 0;
+  pointer-events: auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.Action {
+  text-align: center;
+}
+.Action input {
+  width: 100%;
+}
+
+.Button:focus,
+.Button:hover {
+  background-color: #7c7c7c;
+}
+.Button,
+input[name^="button"].Button,
+input[name^="button"].Button_grau,
+input[name^="button"].Button_Subtle,
+.Button_grau,
+.Button_Subtle,
+.multisource-footer .pagination .showmore a {
+  font-size: clamp(1.4rem, 3vw, 1.6rem);
+  position: relative;
+  z-index: 4;
+  color: #fff;
+  min-height: 35px;
+  max-height: 35px;
+  padding: 0 15px;
+  line-height: 35px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-transition: background 0.2s ease-in;
+  -moz-transition: background 0.2s ease-in;
+  transition: background 0.2s ease-in;
+  white-space: nowrap;
+  width: auto;
+  text-indent: 0;
+  letter-spacing: 0.2px;
+}
+.Button.Primary,
+.Button_Intranet.primary,
+.multisource-footer .pagination .showmore a {
+  background-color: #004a96;
+  color: #fff;
+}
+.Link_Icon.Primary_Action.Delete,
+.Action.Primary.Icon.Delete,
+.Button.Primary.Icon.Delete {
+  background-color: #c50022;
+  color: #fff;
+}
+.Button.Primary.Icon::before {
+  color: #fff;
+}
+.Button.Secondary,
+.Button_grau,
+input[name^="button"].Button_grau,
+input[name^="button"].Button.Secondary,
+.Share_Button_Standard_Grey,
+.Button_Intranet.secondary {
+  color: #fff;
+  background-color: #8aa4ce;
+}
+.Button.Ghost,
+.Button_Subtle,
+input[name^="button"].Button_Subtle,
+input[name^="button"].Button.Ghost {
+  border: 1px solid #004a96;
+  color: #004a96;
+  background-color: #fff;
+  line-height: 34px;
+}
+.Button.Ghost.Icon.Delete {
+  color: #c50022;
+  border-color: #c50022;
+}
+.Button.Ghost.Icon.Delete:hover {
+  background-color: #ad001e;
+  border-color: #ad001e;
+  color: #fff;
+}
+.Button.Icon:before,
+.Button.Icon.After:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: clamp(1.4rem, 3vw, 1.6rem);
+  margin-right: 8px;
+  margin-left: -3px;
+  top: 1px;
+  position: relative;
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  width: 16px;
+  line-height: 0.6rem;
+}
+.Button.Icon.After:before,
+.Action.Icon.After:before {
+  content: "";
+  margin: 0;
+  width: 0;
+}
+.Button.Icon.After:after,
+.Action.Icon.After:after {
+  margin-right: -3px;
+  margin-left: 8px;
+}
+.Button.Icon.Only {
+  width: 35px;
+  padding: 0;
+  flex: 0 0 35px;
+}
+.Button.Icon.Only:before {
+  margin: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  right: 0;
+  left: 0;
+  top: 0;
+  line-height: 35px;
+  font-size: clamp(1.6rem, 3vw, 1.8rem);
+}
+.Button.Icon.Only img {
+  display: none;
+}
+.Button.Ghost.Icon.Only::before {
+  line-height: 33px;
+}
+.Button:hover,
+.Button.Secondary:hover,
+.Button_grau:hover,
+.Button_Subtle:hover,
+.Button_Intranet:hover,
+.Button:focus,
+.Button.Secondary:focus,
+input[name^="button"].Button_Subtle:focus,
+input[name^="button"].Button:focus,
+input[name^="button"].Button_grau:focus,
+.Button_grau:focus,
+.Button_Subtle:focus,
+.Button_Intranet:focus .multisource-footer .pagination .showmore a:hover,
+.multisource-footer .pagination .showmore a:hover {
+  box-shadow: none;
+  text-indent: 0;
+  color: #fff;
+  background-color: #7c7c7c;
+}
+.Button.Ghost:hover,
+input[name^="button"].Button_grau:hover,
+.Button_Subtle:hover,
+input[name^="button"].Button.Ghost:hover,
+input[name^="button"].Button_Subtle:focus,
+.Button_Subtle:focus,
+.Button.Ghost:focus {
+  border-color: #7c7c7c;
+}
+.Button:hover:before,
+.Button:focus:before,
+.animate-button:hover:before,
+.animate-button:focus:before,
+.multisource-footer .pagination .showmore a:hover:before {
+  color: #fff;
+}
+.Button.Animate:hover,
+.Button_Intranet.primary.animate-button:hover,
+.Button_Intranet.secondary.animate-button:hover,
+.Button_Intranet.primary.animate-button:focus,
+.Button_Intranet.secondary.animate-button:focus {
+  background-color: #7c7c7c;
+  color: #7c7c7c;
+}
+.luna_BigBtn {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: var(--darkblue5);
+  transition: background-color 0.2s ease-in;
+}
+.luna_BigBtn .BtnText,
+.luna_BigBtn .BtnNum {
+  color: var(--darkblue);
+  font-size: 2rem;
+}
+.luna_BigBtn .BtnNum {
+  margin-right: 20px;
+  font-size: 1.6rem;
+  line-height: 0.9;
+  position: relative;
+  right: 6px;
+}
+.Link_Icon,
+.Link_Icon:link {
+  font-size: clamp(1.4rem, 3vw, 1.6rem);
+  color: #004a96;
+  border: 0;
+  background-position: left center;
+  background-image: none;
+  padding: 0;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.Link_Icon:focus {
+  color: #7c7c7c;
+}
+.Link_Icon:focus:before {
+  color: #7c7c7c;
+}
+a.Link_Icon:focus {
+  color: #7c7c7c;
+}
+.Link_Icon:hover {
+  text-decoration: none;
+  color: #7c7c7c;
+}
+.Link_Icon:hover:before {
+  color: #7c7c7c;
+}
+.Link_Icon.Primary_Action:hover {
+  color: #fff;
+  background-color: #7c7c7c;
+}
+.Link_Icon:active {
+  color: #7c7c7c;
+}
+.Action,
+.addon-res a {
+  transition: all 0.2s ease-in;
+  text-align: left;
+}
+[class*="Link_Icon "]::before,
+.Action.Icon::before,
+.addon-res a::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: relative;
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  /* width: 16px; */
+  color: #004a96;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  text-align: center;
+}
+[class*="Link_Icon "]::before,
+.Action.Icon::before,
+.addon-res a::before {
+  margin-right: clamp(1rem, 1vw, 1.5rem);
+}
+.Action.Icon.After:after {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+  font-size: clamp(1.4rem, 3vw, 1.6rem);
+  margin-left: 10px;
+  top: 1px;
+  position: relative;
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  width: 16px;
+  color: #004a96;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+[class*="Link_Icon"]:hover::before,
+[class*="Link_Icon"]:active::before,
+.Action:hover::before,
+.Action:active::before,
+.Action.Icon:hover:after,
+.Action.Icon:active:after,
+.addon-res a:hover::before {
+  text-decoration: none;
+  color: #7c7c7c;
+}
+.Action.Primary,
+.Link_Icon.Primary_Action {
+  color: #fff;
+  background-color: #004a96;
+  padding: 9px 15px;
+  /* removed negative margins below as they impacted layout of buttons in Actionbar in many apps - ArajarDW 15052023 */
+  /* margin-left: -7px;
+  margin-right: 15px;
+  margin: -9px 15px -9px -7px; */
+}
+.Action.Primary:before,
+.Link_Icon.Primary_Action:before {
+  color: #fff;
+  /* removed margins - ArajarDW 07082023 */
+  /* margin-right: 8px;
+  margin-left: -3px; */
+}
+.Action.Primary:hover,
+.Link_Icon.Primary_Action:hover {
+  background-color: #7c7c7c;
+  color: #fff;
+}
+.Action.Primary:hover:before,
+.Link_Icon.Primary_Action:hover:before {
+  color: #fff;
+}
+.Link_Icon.small,
+.Link_Icon.small:link {
+  font-size: clamp(1.4rem, 3vw, 1.6rem);
+  font-weight: 400;
+}
+
+.Link_Icon.small:before,
+.Link_Icon.small:link:before {
+  font-size: clamp(1.4rem, 3vw, 1.6rem);
+  margin-right: 5px;
+  top: 0;
+}
+
+/* .ActionBar {
+  padding: 0.5rem 1rem; 
+  max-width: 1170px; change by ThaiT1 - 24.07.2023 - fix max-with size for app e.g. WGS
+  margin: 0 0 2rem 0; 
+  background-color: #f0f0f0; 
+  min-height: 50px;
+  max-height: 95px; 
+  display: flex; 
+} */
+/* .ActionBar {
+  background: rgba(0, 0, 0, 0.25);
+} */
+.ActionBar a {
+  display: inline-block;
+  font-size: var(--small-link-font-size);
+  color: var(--darkblue);
+}
+
+.ActionBar .Button_Primary,
+.ActionBar .Button_Secondary,
+.ActionBar .Button_Ghost {
+  margin: 0.5rem 0.75rem 0.5rem 0;
+  color: var(--white);
+  padding: 0 1.75rem !important;
+}
+.ActionBar a:first-child {
+  padding-left: 0;
+}
+.furtherActions a {
+  font-size: var(--small-link-font-size);
+  color: var(--darkblue);
+  font-weight: 500;
+}
+
+.ActionBar a.Action.Icon.Only {
+  margin-right: 15px;
+}
+.ActionBar .moreActions {
+  display: none;
+  padding: 12px 0;
+  border-top: 1px dashed #99b6d4;
+  margin-top: 16px;
+}
+.ActionBar .Text_Label {
+  display: inline;
+  position: relative;
+  top: -3px;
+}
+.Container_moduleBox_Hellblau .Text_App_moduleBox_Header,
+.ContentHeadline {
+  color: #333;
+  border-bottom: 1px solid #004a96;
+  font-size: var(--header5-font-size);
+  line-height: clamp(2.4rem, 3vw, 2.8rem);
+  padding: 0.5rem 0 0.75rem 0;
+}
+.Container_moduleBox_Hellblau
+  td.Text_App_moduleBox_Header.ix-max-width.ix-inline-block {
+  display: table-cell;
+}
+.Container_moduleBox_Hellblau .Container_Standar {
+  padding: 0;
+}
+.Container_moduleBox_Hellblau,
+.ContentContainer {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0;
+  position: relative;
+  border: 0;
+  background: 0;
+  background-repeat: repeat-x;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+/* .Container_moduleBox_Hellblau.Icon .Text_App_moduleBox_Header,
+.Text_App_moduleBox_Header.Icon,
+.ContentHeadline.Icon {
+  padding-left: 8px;
+} */
+.Container_moduleBox_Hellblau .Text_App_moduleBox_Header.Icon::before,
+.Container_moduleBox_Hellblau.Icon .Text_App_moduleBox_Header::before,
+.Content_Module_Group.Icon .Text_App_moduleBox_Header::before,
+.ContentHeadline.Icon::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: clamp(1.25rem, 0.95vw, 3rem);
+  margin-right: clamp(0.75rem, 1vw, 1.5rem);
+  color: #5177b5;
+  position: relative;
+  /* font-style: normal;
+  font-weight: 900;
+  speak: none;
+  font-variant: normal;
+  text-transform: none; irrelevant */
+}
+.Container_moduleBox_Hellblau.Icon::before,
+.Content_Module_Group.Icon::before {
+  content: "" !important;
+  margin: 0;
+  width: 0;
+}
+/*Used for Buttonbars*/
+.Container_FooterWrapper {
+  border-top: 1px solid #d4e0ed;
+  padding: 2rem 0 0 0;
+  margin-top: 2rem;
+}
+.Container_FooterWrapper [class*="Button"] {
+  margin-left: 10px;
+}
+.Container_FooterWrapper [class*="Button"]:first-of-type {
+  margin-left: 0;
+}
+@media screen and (min-width: 1500px) {
+  .Section_Divider,
+  .SectionDivider,
+  .Luna_accordion,
+  .Luna_accordion_panel,
+  .Luna_accordion_bottom {
+    /* max-width: 1440px !important; */ /* change by ThaiT1 - 24.07.2023 - fix max-with size for app e.g. WGS*/
+    border-bottom: 1px solid var(--grey15);
+  }
+}
+
+.iconOnly a,
+.iconOnly.a,
+a.iconOnly {
+  width: 20px;
+  height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-indent: 40px;
+  display: inline-block;
+  margin: 0;
+}
+.iconOnly [class*="Icon"]::before,
+[class*="Icon"].iconOnly::before {
+  right: 0;
+  left: 0;
+  margin: 0;
+}
+.iconOnly a::before,
+.iconOnly.a::before {
+  text-indent: 0;
+  float: left;
+}
+a.Action.Icon img {
+  display: none;
+}
+.Action.Icon.Delete:hover:before,
+.Action.Icon.Delete:focus:before,
+.Link_Icon.Delete:hover:before,
+.Link_Icon.Delete:focus:before {
+  color: var(--grey);
+}
+
+a.moreActionsBtn.Link_Icon.fa-ellipsis-h::before,
+a.moreActionsBtn.Action.Icon.EllipsisH::before {
+  line-height: 32px;
+  width: 100%;
+}
+a.moreActionsBtn.Link_Icon.fa-ellipsis-h::before {
+  top: 9px;
+  left: 8px;
+  color: var(--darkblue);
+}
+a.moreActionsBtn.Link_Icon.fa-ellipsis-h,
+a.moreActionsBtn.Action.Icon.EllipsisH {
+  white-space: nowrap;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  border: 1px solid var(--darkblue);
+}
+a.moreActionsBtn.Link_Icon.fa-ellipsis-h:hover,
+a.moreActionsBtn.Action.Icon.EllipsisH:hover,
+a.moreActionsBtn.Link_Icon.fa-ellipsis-h:focus,
+a.moreActionsBtn.Action.Icon.EllipsisH:focus {
+  background-color: var(--grey);
+  border-color: var(--grey);
+}
+a.moreActionsBtn.Link_Icon.fa-ellipsis-h:hover::before,
+a.moreActionsBtn.Action.Icon.EllipsisH:hover::before,
+a.moreActionsBtn.Link_Icon.fa-ellipsis-h:focus::before,
+a.moreActionsBtn.Action.Icon.EllipsisH:focus::before {
+  color: (--white);
+}
+
+.Container_moduleBox_Hellblau .Actions .Action,
+.ContentContainer .Actions .Action {
+  float: right;
+  margin: 0 0 0 5px;
+  position: relative;
+  font-weight: bold;
+}
+
+.Container_moduleBox_Hellblau .Actions .Action.Primary,
+.ContentContainer .Actions .Action.Primary {
+  padding: 8.5px 15px;
+}
+.Container_moduleBox_Hellblau .Actions,
+.ContentContainer .Actions {
+  margin-top: -38px;
+  height: 35px;
+}
+.Container_moduleBox_Hellblau .Actions .Action.Icon.Only,
+.ContentContainer .Actions .Action.Icon.Only {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 64.0625em) {
+  .FilterContainer .ix-large-pRNone {
+    padding-right: 7px;
+  }
+  .FilterGroup_Table
+    #ID_gridcontainercolumn1230DACA
+    .ix-large-pRNone:last-child {
+    padding-right: 0;
+  }
+  .Container_moduleBox_Hellblau .Actions .Action.Primary,
+  .ContentContainer .Actions .Action.Primary {
+    top: -3px;
+  }
+}
+
+.FilterGroup .showMore,
+.FilterGroup .showLess {
+  border-left: 1px solid var(--grey15);
+  padding-left: 25px;
+  line-height: 1.5;
+  display: inline-block;
+  min-width: 107px;
+}
+/* .FilterGroup * {
+  display: inline-flex;
+} */
+.FilterGroup select,
+.FilterGroup .moreFilters select {
+  padding-right: 30px;
+}
+.FilterGroup input,
+.FilterGroup .moreFilters input,
+.FilterGroup span[id*="TD_dropdowncontrol"],
+.FilterGroup .moreFilters span[id*="TD_dropdowncontrol"] {
+  margin-right: 10px;
+}
+.FilterGroup .moreFilters {
+  padding: 10px 0 5px 0;
+}
+.moreFilters {
+  border-top: 1px dashed var(--white);
+}
+.FilterGroup,
+.FilterGroup_Table {
+  background-color: var(--darkblue5);
+  /* padding: 8px 5px; */
+  padding: 1rem 1rem 0 1rem;
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  /* height: 50px; */
+}
+.FilterGroup_Table {
+  padding: 0;
+}
+.FilterGroup_Table .Container_Standard .Container_Standard {
+  margin: -5px 0 -4px;
+}
+.FilterGroup_Table .moreFilters .Container_Standard .Container_Standard {
+  margin-top: -10px;
+}
+.FilterGroup label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.FilterGroup .Editfield_Standard,
+.FilterGroup input[type="text"],
+.FilterGroup input[type="password"],
+.FilterGroup .Text_Standard:not(span),
+.FilterGroup_Table .Editfield_Standard,
+.FilterGroup_Table input[type="text"],
+.FilterGroup_Table input[type="password"],
+.FilterGroup_Table .Text_Standard:not(span) {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: var(--white);
+  border-color: var(--white);
+}
+.FilterGroup .Dropdown_Standard,
+.FilterGroup_Table select.Dropdown_Standard {
+  border-color: var(--white);
+}
+.Dropdown_Standard {
+  margin-right: 0.5rem;
+}
+.FilterGroup_Table span[id*="ID_TD_dropdowncontrol"] {
+  display: inline-block;
+  margin-right: 10px;
+}
+.FilterGroup .Editfield_Standard:hover,
+.FilterGroup input[id*="textcontrol"]:hover,
+.FilterGroup input[type="password"]:hover,
+.FilterGroup .Text_Standard:not(span):hover,
+.FilterGroup .Editfield_Standard:focus,
+.FilterGroup input[id*="textcontrol"]:focus,
+.FilterGroup input[type="password"]:focus,
+.FilterGroup .Text_Standard:not(span):focus,
+.FilterGroup_Table .Editfield_Standard:hover,
+.FilterGroup_Table input[id*="textcontrol"]:hover,
+.FilterGroup_Table input[type="password"]:hover,
+.FilterGroup_Table .Text_Standard:not(span):hover,
+.FilterGroup_Table .Editfield_Standard:focus,
+.FilterGroup_Table input[id*="textcontrol"]:focus,
+.FilterGroup_Table input[type="password"]:focus,
+.FilterGroup_Table .Text_Standard:not(span):focus {
+  background-position: right -58px;
+}
+[class*="FilterGroup"] [type="text"].activated,
+[class*="FilterGroup"] [type="text"].activated:hover,
+[class*="FilterGroup"] [type="text"].activated:focus,
+[class*="FilterGroup"] select.activated,
+[class*="FilterGroup"] select.activated:hover,
+[class*="FilterGroup"] select.activated:focus {
+  border: 1px solid var(--darkblue);
+  color: var(--darkblue);
+}
+
+.FilterGroup .Editfield_Standard::placeholder,
+.FilterGroup input[type="text"]::placeholder,
+.FilterGroup input[type="password"]::placeholder,
+.FilterGroup input[type="email"]::placeholder,
+.FilterGroup
+  .Share_DistributionControlVerticalBottom
+  div.Search
+  > input[type="text"]::placeholder,
+.FilterGroup .Editfield_Link::placeholder,
+.FilterGroup .Dropdown_Standard::placeholder,
+.FilterGroup select.Dropdown_Standard::placeholder,
+.FilterGroup_Table .Editfield_Standard::placeholder,
+.FilterGroup_Table input[type="text"]::placeholder,
+.FilterGroup_Table input[type="password"]::placeholder,
+.FilterGroup_Table input[type="email"]::placeholder,
+.FilterGroup_Table
+  .Share_DistributionControlVerticalBottom
+  div.Search
+  > input[type="text"]::placeholder,
+.FilterGroup_Table .Editfield_Link::placeholder,
+.FilterGroup_Table .Dropdown_Standard::placeholder,
+.FilterGroup_Table select.Dropdown_Standard::placeholder {
+  color: var(--grey80);
+}
+.FilterGroup .Editfield_Standard:hover::placeholder,
+.FilterGroup input[type="text"]:hover::placeholder,
+.FilterGroup input[type="password"]:hover::placeholder,
+.FilterGroup input[type="email"]:hover::placeholder,
+.FilterGroup
+  .Share_DistributionControlVerticalBottom
+  div.Search
+  > input[type="text"]:hover::placeholder,
+.FilterGroup .Editfield_Link:hover::placeholder,
+.FilterGroup .Dropdown_Standard:hover::placeholder,
+.FilterGroup_Table select.Dropdown_Standard:hover::placeholder,
+.FilterGroup_Table .Editfield_Standard:hover::placeholder,
+.FilterGroup_Table input[type="text"]:hover::placeholder,
+.FilterGroup_Table input[type="password"]:hover::placeholder,
+.FilterGroup_Table input[type="email"]:hover::placeholder,
+.FilterGroup_Table
+  .Share_DistributionControlVerticalBottom
+  div.Search
+  > input[type="text"]:hover::placeholder,
+.FilterGroup_Table .Editfield_Link:hover::placeholder,
+.FilterGroup_Table .Dropdown_Standard:hover::placeholder,
+.FilterGroup_Table select.Dropdown_Standard:hover::placeholder {
+  color: var(--darkblue35);
+}
+
+.TooltipHeadlineWrapper {
+  margin-bottom: 5px;
+}
+
+.Text_Tooltip_Header,
+.TT_POPUP > div.wrapper > .TTHeader,
+.TT_MODAL > div.wrapper > .TTHeader {
+  font-size: clamp(2.2rem, 3vw, 2.8rem);
+  line-height: 3.2rem;
+  color: #666;
+}
+
+.Text_Tooltip_Header.Icon::before {
+  margin-right: 8px;
+  position: relative;
+  top: -1px;
+  font-size: clamp(2.2rem, 3vw, 3rem);
+  color: #8aa4ce;
+  min-width: 14px;
+  display: inline-block;
+}
+.Text_Tooltip_Header.Icon.Delete::before {
+  top: 2px;
+}
+.Text_Tooltip_Subheader {
+  color: #8aa4ce;
+  font-size: clamp(1.4rem, 2.5rem, 1.6rem);
+}
+.row > .Text_Tooltip_Subheader {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.Wizard_Progressbar {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  box-shadow: 0 4px 12px -7px var(--darkblue10);
+}
+.Wizard_StepWrapper {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+.Wizard_Step {
+  height: 40px;
+  width: 40px;
+  background-color: var(--darkblue);
+  border: 0;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 clamp(1rem, 1vw, 2rem);
+  opacity: 0.3;
+  color: var(--white);
+  font-weight: 400;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  line-height: 40px;
+  position: relative;
+}
+.Wizard_Progressbar .Wizard_Step .Icon::before {
+  font-size: clamp(1.6rem, 3vw, 1.8rem);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  line-height: 39px;
+}
+.Wizard_Progressbar.sticky .Wizard_Step .Icon::before {
+  font-size: clamp(1rem, 3vw, 1.4rem);
+}
+.Wizard_Step.active,
+.Wizard_Step.active.finish {
+  opacity: 1;
+  background-color: var(--darkblue);
+  animation: bounce 1 1s;
+}
+.Wizard_StepText.active,
+.Wizard_StepText.active.finish {
+  opacity: 1;
+  color: var(--darkblue);
+}
+.Wizard_Step.finish {
+  background-color: var(--darkblue25);
+}
+.Wizard_StepText {
+  color: var(--darkblue);
+  opacity: 0.4;
+  font-weight: normal;
+  font-size: clamp(1.4rem, 3vw, 1.6rem);
+  width: 175px; /* By ThaiT1 - Proper spacing for the Wizard Tab title in 'SuccessFactors Item Request Form' */
+}
+.Wizard_StepText.finish {
+  opacity: 1;
+  color: var(--darkblue25);
+}
+.Wizard_Step.Indicator::after {
+  font-size: clamp(1rem, 3vw, 1.4rem);
+  line-height: 0rem;
+  padding-left: 12px;
+  animation: wobble 1 1s;
+}
+.Wizard_Progressbar.sticky {
+  width: 1170px;
+  position: fixed;
+  background-color: var(--white);
+  top: 86px;
+  padding: 9px 0;
+  margin-top: 0;
+  z-index: 999;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
+  border-bottom: 0;
+}
+.Wizard_Progressbar.sticky .Wizard_Step {
+  height: 20px;
+  width: 20px;
+  line-height: 19px;
+  font-size: 15px;
+  margin-bottom: 1px;
+}
+.Wizard_Progressbar.sticky .Wizard_StepText {
+  font-size: clamp(1rem, 3vw, 1.4rem);
+  margin: 0 5px;
+}
+.Wizard_Progressbar.sticky .Wizard_Step.Indicator::after {
+  padding-left: 5px;
+  font-size: clamp(1rem, 3vw, 1.4rem);
+}
+.Wizard_Tab {
+  animation: fadeIn 1 1s;
+}
+input[name^="button"].tabVerticalButton,
+input[name^="button"].tabVerticalButton:focus,
+input[name^="button"].tabButton,
+input[name^="button"].tabButton:focus,
+.Button.tabVerticalButton,
+.Button.tabVerticalButton:focus,
+.Button.tabButton,
+.Button.tabButton:focus,
+.TT_MODAL .TAB_MENU li {
+  background: var(--white);
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 0;
+  margin-top: 0;
+  top: 0;
+  color: var(--darkblue);
+}
+/* Wizard tabs button properties */
+input[name^="button"].tabButton.inactive,
+.Button.tabButton.inactive {
+  color: var(--darkblue);
+  border: 0;
+  border-bottom: 1px solid var(--darkblue);
+  font-weight: 500;
+}
+input[name^="button"].tabVerticalButton.inactive:hover,
+input[name^="button"].tabButton.inactive:hover,
+.Button.tabVerticalButton.inactive:hover,
+.Button.tabButton.inactive:hover {
+  box-shadow: none;
+  background-color: var(--button-standard-background-color-hover);
+  color: var(--button-text-color);
+}
+input[name^="button"][disabled].tabButton.inactive,
+.Button.tabButton.inactive {
+  pointer-events: none;
+  background-color: var(--input-standard-disabled-background-color);
+  color: var(--grey35);
+}
+/* end */
+
+/*
+ *	START - INDICATOR and BADGE STYLES
+*/
+.Indicator::after {
+  content: "\f111";
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+  position: absolute;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  transition: color 0.2s ease-in;
+}
+.Indicator.warning::before,
+.Indicator.success::before,
+.Indicator.error::before,
+.Indicator::before {
+  content: "";
+  margin: 0;
+}
+.Indicator.warning::after {
+  content: "\f071";
+  color: var(--orange);
+}
+.Indicator.success::after {
+  content: "\f00c";
+  color: var(--lightgreen);
+}
+.Indicator.error::after {
+  content: "\f00d";
+  font-size: 1.5rem;
+  color: var(--red);
+}
+.Button.Indicator::after {
+  top: -17px;
+  right: -9px;
+  position: absolute;
+}
+span.Badge {
+  position: absolute;
+  top: -10px;
+  right: -14px;
+  padding: 0px 8px;
+  border-radius: 15px;
+  background-color: var(--darkblue25);
+  color: var(--white);
+  transition: background 0.2s ease-in;
+}
+span.Badge:hover,
+.withBadge:hover span.Badge {
+  background-color: var(--darkblue);
+}
+/*
+ *     END - INDICATOR and BADGE STYLES - END
+*/
+
+/*deprecated global helpers*/
+:root {
+  --privacyLevelInternal: var(--lightgreen);
+  --privacyLevelConfidential: var(--orange);
+  --privacyLevelStrictlyConfidential: var(--red);
+}
+
+.Content_Module {
+  /* border: 1px solid var(--darkblue5); */
+  padding: 1.5rem 2rem;
+  /* margin: 1rem; */
+  min-height: 150px;
+  height: auto;
+  box-shadow: var(-box-shadow-container);
+  /* border: 1px solid #e3e1e1; */
+  margin-bottom: 2rem;
+  /* box-shadow: 0 1px 3px 0 rgba(37, 32, 31, 0.3); */
+  border: 1px solid #e3e1e1;
+  box-sizing: border-box;
+}
+
+.textWhite,
+.iconWhite::before,
+.iconWhite::after {
+  color: var(--white) !important;
+}
+.textDark {
+  color: var(--grey70) !important;
+}
+.textMidGrey {
+  color: var(--grey30) !important;
+}
+
+/* LEGACY COLOR CLASSES */
+.privacyLevelInternal_Txt {
+  color: var(--darkgreen);
+}
+.privacyLevelInternal_BG {
+  background-color: var(--darkgreen);
+}
+.privacyLevelConfidential_Txt {
+  color: var(--orange);
+}
+.privacyLevelConfidential_BG {
+  background-color: var(--orange);
+}
+.privacyLevelStrictlyConfidential_Txt {
+  color: var(--red);
+}
+.privacyLevelStrictlyConfidential_BG {
+  background-color: var(--red);
+}
+.basf_lb_BG {
+  background-color: var(--darkblue);
+}
+.basf_lbState_BG {
+  background-color: var(--darkblue-hover);
+}
+.basf_dg_BG {
+  background-color: var(--darkgreen);
+}
+.basf_dgState_BG {
+  background-color: var(--darkgreen-hover);
+}
+.basf_lg_BG {
+  background-color: var(--lightgreen);
+}
+.basf_lgState_BG {
+  background-color: var(--lightgreen-hover);
+}
+.basf_db_BG {
+  background-color: var(--darkblue);
+}
+.basf_dbState_BG {
+  background-color: var(--darkblue-hover);
+}
+.basf_rd_BG {
+  background-color: var(--red);
+}
+.basf_rdState_BG {
+  background-color: var(--red-hover);
+}
+.basf_org_BG {
+  background-color: var(--orange);
+}
+.basf_orgState_BG {
+  background-color: var(--orange-hover);
+}
+.basf_wt_BG {
+  background-color: var(--white);
+}
+.basf_wtState_BG {
+  background-color: var(--grey);
+}
+/* COLUMN */
+[class*="col-"] {
+  width: 100%;
+}
+/* For tablets: still in use in IX19? */
+@media only screen and (min-width: 40.0625em) {
+  .row > [class*="col-"]:first-of-type {
+    clear: both;
+  }
+  [class*="col-"] {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+  }
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+/* For desktop: still in use in IX19? */
+@media only screen and (min-width: 64.0625em) {
+  [class*="col-"] {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: calc(25% - 10px);
+  }
+  .col-4 {
+    width: calc(33.33% - 10px);
+  }
+  .col-5 {
+    width: calc(41.66% - 10px);
+  }
+  .col-6 {
+    width: calc(50% - 10px);
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+.Text_Label_Strong {
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: clamp(1.15rem, 1.5vw, 1.4rem);
+  line-height: clamp(1.4rem, 1.25vw, 1.8rem);
+}
+.Text_Label_Strong.required:after {
+  content: "*";
+  /* margin-left: 0.5rem; */
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #f39500;
+}
+
+.Button {
+  font-size: clamp(1.4rem, 3vw, 1.6rem);
+  position: relative;
+  color: #fff;
+  min-height: 3.5rem;
+  max-height: 3.5rem;
+  padding: 0 2rem;
+  line-height: 3.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-transition: background 0.2s ease-in;
+  -moz-transition: background 0.2s ease-in;
+  transition: background 0.2s ease-in;
+  white-space: nowrap;
+  text-indent: 0;
+  letter-spacing: 0.05rem;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.Button::before {
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: white !important;
+}
+.Primary {
+  background-color: var(--darkblue);
+  color: var(--white);
+}
+.Secondary {
+  color: var(--white);
+  background-color: var(--darkblue25);
+}
+.Ghost {
+  border: 0.1rem solid var(--darkblue);
+  color: var(--darkblue) !important;
+  background-color: var(--white);
+  line-height: 3.5rem;
+}
+.Primary:hover,
+.Secondary:hover,
+.Ghost:hover {
+  color: var(--white) !important;
+  background-color: var(--grey45);
+  box-shadow: none;
+  text-indent: 0;
+  background-color: rgb(124, 124, 124);
+}
+.Ghost::before {
+  color: var(--darkblue) !important;
+}
+.Ghost .Icon {
+  color: var(--darkblue);
+}
+.Ghost:hover::before {
+  color: var(--white);
+}
+
+/* @Description: For toggle switch button in custom controls
+ * @Version 20230404
+ * @author: ArajarDW
+*/
+.toggleButton {
+  --borderBtn: 1px solid var(--darkblue);
+  --sizeSmall: 15px;
+  --fast-transition: all 0.25s ease-in-out;
+  --medium-transition: all 0.6s ease-in-out;
+  --borderRadius: 50%;
+  line-height: clamp(1.4rem, 1.25vw, 1.8rem);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+/* .row:nth-child(2) {
+  transform: translateX(9px);
+} */
+.toggleButton label,
+.toggleButton .toggle-label {
+  margin-right: 1.5rem;
+  font-weight: 600;
+  font-size: clamp(1.15rem, 1.5vw, 1.4rem);
+}
+.toggler {
+  position: relative;
+  width: var(--sizeSmall);
+  height: var(--sizeSmall);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  transition: var(--medium-transition);
+  margin-right: 2px;
+}
+.toggler .switcher {
+  position: relative;
+  transform: translateX(-3px);
+  width: 9px;
+  height: 9px;
+  z-index: 30;
+  background: var(--darkblue);
+  border-radius: 100%;
+  transition: var(--fast-transition);
+}
+.toggler.switchedOn .switcher {
+  background: white;
+  transition: var(--fast-transition);
+  transform: translateX(10px);
+}
+.toggler::before,
+.toggler::after {
+  content: "";
+  position: absolute;
+  width: var(--sizeSmall);
+  height: var(--sizeSmall);
+  background: var(--white);
+  border: var(--borderBtn);
+  transition: var(--medium-transition);
+}
+.toggler::before {
+  left: -50%;
+  border-top-left-radius: var(--borderRadius);
+  border-bottom-left-radius: var(--borderRadius);
+  border-right: none;
+}
+.toggler::after {
+  right: -48%;
+  border-top-right-radius: var(--borderRadius);
+  border-bottom-right-radius: var(--borderRadius);
+  border-left: none;
+}
+.toggler.switchedOn::after,
+.toggler.switchedOn::before {
+  background: var(--darkblue);
+  transition: var(--fastTransition);
+}
+.toggleButton.align-switch-left {
+  flex-direction: row-reverse;
+  padding-left: 5px !important;
+}
+
+.toggleButton.align-switch-left label,
+.toggleButton.align-switch-left .toggle-label {
+  margin-left: 25px;
+  margin-right: 0;
+  padding-left: 0;
+}
+.align-switch-left .toggler::after {
+  right: -45%;
+}
+
+/* @Description: For KnowIT
+ * @Version 20230629
+ * @author: ArajarDW
+*/
+
+.Content_Module,
+.Box {
+  border: 1px solid var(--darkblue5);
+  padding: 15px 15px 30px 15px;
+  min-height: 200px;
+  height: auto;
+  box-shadow: 4px 2px 6px rgba(0, 74, 150, 0.05),
+    0 4px 6px rgba(0, 74, 150, 0.05);
+}
+.listControlContainer {
+  width: 100%;
+}
+
+.Chip_Intranet.active::after,
+.Chip.active::after,
+.Listbox_Extended > ul > li.data[data-selected="selected"]::after {
+  color: var(--white);
+  content: "\f057";
+  top: 1px;
+  font-size: 115%;
+  right: -7px;
+  line-height: 30px;
+}
+
+.Chip_Intranet::after,
+.Chip::after,
+.Listbox_Extended > ul > li.data::after {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+  font-style: normal;
+  position: relative;
+  right: -8px;
+  color: var(--grey15);
+  content: "";
+  font-size: 85%;
+  transition: all ease-in-out 0.4s;
+}
+
+.KNOWitClassification > .KNOWit_Confidential::before {
+  content: "\f023" !important;
+  color: #f39500 !important;
+  margin-right: 14px;
+}
+
+input#ID_GlobalSearchAppInput,
+input.BigSearchInput {
+  min-height: 32px;
+  margin-top: 10px;
+  font-size: clamp(2rem, 3vw, 2.4rem);
+  width: 100%;
+  padding: 0 50px 9px 20px;
+  border: 0;
+  box-shadow: none;
+  border-bottom: 2px solid var(--darkblue);
+  background-color: transparent;
+}
+
+.BigSearchInput::placeholder {
+  color: var(--darkblue45);
+  font-weight: 500;
+}
+
+.BigSearchButton.Action.Icon.Search::before {
+  float: right;
+  margin-top: -4rem;
+  font-size: 2rem !important;
+  margin-right: 1rem;
+}
+
+div.BigSearch {
+  padding: 2rem !important;
+}
+
+.BigSearchButton.Action.Icon.Search::before {
+  float: right;
+  margin-top: -40px;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+/*Start of custom filter css*/
+.CustomFilterContainer {
+  margin-right: 10px;
+  float: left;
+  margin-bottom: 10px;
+}
+.CustomFilter {
+  width: 354px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: var(--white);
+  border: 1px solid var(--darkblue);
+}
+.CustomFilterApplyButton .Button.Primary {
+  width: 82%;
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+.CustomFilterValues {
+  height: 90%;
+  max-height: 170px;
+  overflow-x: hidden;
+  padding-top: 10px;
+  border-bottom: 1px solid var(--darkblue15);
+  border-top: 1px solid var(--darkblue15);
+  margin-bottom: 10px;
+  background-color: var(--darkblue5);
+}
+.CustomFilterValue {
+  padding-left: 10px;
+  height: 40px;
+}
+.CustomFilterValue:hover {
+  background-color: var(--darkblue10);
+}
+
+.CustomFilterValue input[type="checkbox"] {
+  margin-top: 10px;
+}
+.CustomFilterInput {
+  margin-bottom: -1px;
+}
+.CustomFilterInput input {
+  margin-right: 0px;
+}
+
+.CustomFilterInput a {
+  float: right;
+}
+.CustomFilterCheckAll {
+  margin-top: 3px;
+  margin-left: 55%;
+}
+.CustomFilterCheckAll a {
+  margin-left: 20%;
+}
+.CustomFilterSearchInput input {
+  margin-right: 0px;
+}
+.CustomFilterSearchInput a {
+  float: right;
+}
+.CustomFilterLabel {
+  height: 35px;
+  text-overflow: ellipsis;
+  width: 80%;
+  display: block;
+  cursor: pointer;
+  float: right;
+  margin-right: 15px;
+  margin-top: 4px;
+}
+.CustomFilterSwitch.Button.Icon.Only {
+  width: 41px;
+  padding-top: 5px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 1px;
+  margin: 0;
+}
+
+/*end of custom filter css*/
+
+/* @Description: For KnowIT Articles page - test
+ * @Version 20230918
+ * @author: ArajarDW
+*/
+
+.Container_TabMenu {
+  border-bottom: 2px solid var(--darkblue10);
+  margin: 2rem 0;
+  /* border: 4px solid red; */
+}
+.Container_TabMenu .radiocontrolgroup {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.Container_TabMenu.second .radiocontrolgroup {
+  padding: 10px 5px;
+}
+.Container_TabMenu .radiocontrolgroup > div {
+  /* border: 2px solid blue; */
+  display: flex;
+  color: var(--darkblue);
+  justify-content: space-between;
+  align-items: center;
+}
+.Container_TabMenu .radiocontrolgroup div > input {
+  border: none !important;
+  background-color: rgba(0, 0, 0, 0);
+  vertical-align: inherit;
+  line-height: 1.6rem !important;
+  width: 0;
+  height: 0;
+}
+.Container_TabMenu .Icon [id*="ID_radiocontrol"] {
+  display: none;
+}
+.Container_TabMenu .Radio_Standard.Icon:hover label,
+.Container_TabMenu .Radio_Standard.Icon:hover::before {
+  color: var(--grey);
+  cursor: pointer;
+}
+.Container_TabMenu div label {
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+.Container_TabMenu div label:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+}
+.Container_TabMenu [id*="ID_radiocontrol"]:checked + label {
+  border-bottom: 2px solid var(--darkblue);
+  font-weight: bold;
+}
+.Container_TabMenu div > label {
+  display: inline-block;
+  padding: 1rem 3rem 0.5rem 2rem;
+  text-align: center;
+  color: #004a96;
+  transition: all 0.2s ease-in;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.Container_TabMenu .Radio_Standard.Icon.Read::before,
+.Container_TabMenu .Radio_Standard.Icon.Edit::before {
+  font-size: 1rem;
+}
+.Container_TabMenu div .Icon::before {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+  font-size: 1.15rem;
+  position: absolute;
+  top: unset;
+  color: var(--darkblue);
+  top: -8px;
+}
+.Container_TabMenu div .Settings.Icon::before {
+  left: -1.5rem;
+  top: -0.25rem;
+}
+
+.Text_Label.requiredExtd::after,
+.Text_Label_Strong.requiredExtd::after {
+  content: " - required";
+}
+.Text_Label.requiredExtd::after,
+.Text_Label_Strong.requiredExtd::after {
+  font-style: italic;
+  color: #f39500;
+  display: inline-block;
+  margin-left: 5px;
+  font-weight: normal;
+  text-transform: lowercase;
+  font-size: 12px;
+  margin-top: 1px;
+}
+
+.testshadow {
+  box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.4);
+  padding: 1.5rem 2rem;
+}
+
+.TT_Content a > img {
+  width: 0;
+  height: 0;
+}
+
+.Button_Primary > img {
+  display: none;
+}
+
+/* @Description: For AoC accordian styles for migration
+ * @Version 20231103
+ * @author: ArajarDW
+*/
+
+/***************************** start LATEST ACCORDION CMS ********************************/
+.CMS_accordion,
+.Luna_accordion,
+.CMS_accordion_panel,
+.Luna_accordion_panel,
+.CMS_accordion_bottom,
+.Luna_accordion_bottom {
+  /* max-width: 1170px; */
+  padding: 15px 0 10px 0;
+  display: none;
+  overflow: hidden;
+}
+.CMS_accordion_bottom,
+.Luna_accordion_bottom {
+  border-top: 1px solid var(--grey15);
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.Luna_accordion_panel.show {
+  display: block;
+}
+.CMS_accordion,
+.Luna_accordion {
+  background-color: transparent;
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  border: none;
+  border-top: 1px solid var(--grey15);
+  margin: 0;
+  /* padding: 8px 0 0 10px; */
+  /* padding: 1rem 0; */
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+}
+.CMS_accordion,
+.Luna_accordion,
+.CMS_accordion::before,
+.Luna_accordion::before,
+.CMS_accordion::after,
+.Luna_accordion::after {
+  color: var(--darkblue);
+  transition: color 0.2s ease-in;
+}
+.CMS_accordion::after,
+.Luna_accordion::after {
+  font-family: "BASF_IconFont_2019" !important;
+  font-style: normal;
+  font-weight: 400;
+  float: right;
+  font-size: 0.8rem;
+  padding: 0 10px;
+  content: "\e903";
+  /* line-height: 26px; */
+  margin-top: 3px;
+  transition: transform 0.3s ease-in-out;
+}
+.CMS_accordion.active::after,
+.Luna_accordion.active::after {
+  filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=1);
+  transform: rotate(180deg);
+  display: inline-block;
+}
+.CMS_accordion:hover,
+.Luna_accordion:hover,
+.CMS_accordion:hover::before,
+.Luna_accordion:hover::before,
+.CMS_accordion:hover::after,
+.Luna_accordion:hover::after {
+  color: var(--grey);
+}
+.Luna_accordion.Bottom_Border_Only {
+  border-top: none;
+}
+.CMS_accordion.active,
+.Luna_accordion.active {
+  border-bottom: none;
+}
+.CMS_accordion_active,
+.CMS_accordion:hover,
+.Luna_accordion_active,
+.Luna_accordion:hover {
+  background-color: none;
+}
+/* start LUNA ACCORDION */
+.Luna_accordion.disabled,
+.Luna_accordion.disabled::after,
+.Luna_accordion.disabled::before {
+  color: var(--darkblue10);
+  cursor: default;
+  pointer-events: none;
+}
+/* .Luna_accordion.Icon::before {
+  font-size: 1.1rem;
+  margin-right: 14px;
+  line-height: 0.8rem;
+} */
+.Luna_accordion.Icon.Sitemap::before {
+  font-size: 1.05rem;
+  margin-right: 12px;
+}
+.Luna_accordion.Icon.Check::before {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+.Luna_accordion.Icon.Search::before {
+  margin-right: 11px;
+  font-size: 1.2rem;
+}
+.accordion {
+  width: 100%;
+  margin: 20px 0;
+}
+.column.half .accordion,
+.column.third .accordion,
+.column.fourth .accordion {
+  width: 97%;
+  margin: 20px 0;
+}
+.column.half:first-of-type .accordion,
+.column.third:first-of-type .accordion,
+.column.fourth:first-of-type .accordion {
+  margin-right: 3%;
+}
+.column.half:nth-of-type(2) .accordion,
+.column.third:nth-of-type(3) .accordion,
+.column.fourth:nth-of-type(4) .accordion {
+  margin-left: 3%;
+}
+.column.half:nth-of-type(2) .accordion,
+.column.third:nth-of-type(2) .accordion,
+.column.fourth:nth-of-type(2) .accordion,
+.column.half:nth-of-type(3) .accordion,
+.column.third:nth-of-type(3) .accordion,
+.column.fourth:nth-of-type(3) .accordion {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+.accordion__item {
+  display: flex;
+  flex-direction: column;
+}
+.accordion__header {
+  align-items: center;
+  cursor: pointer;
+  background: 0 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-top: 1px solid var(--grey35);
+  position: relative;
+  width: 100%;
+}
+.accordion__header__headline {
+  flex: 1;
+  color: var(--darkblue);
+  transition: color 0.3s;
+  font-size: 1.75rem;
+  line-height: 1.35714;
+  margin: 0;
+}
+.accordion__header:hover .accordion__header__headline {
+  color: var(--grey);
+}
+.accordion__header .accordion__icon {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  margin-left: 20px;
+  color: var(--darkblue);
+  transition: margin-top 0.3s ease-in-out, color 0.3s;
+}
+.accordion__header:hover .accordion__icon {
+  color: var(--grey);
+}
+.accordion__header .accordion__icon [class^="icon"]::before {
+  font-size: 2.5rem;
+}
+.accordion__header .accordion__icon [class^="icon"] {
+  transform: rotate(0);
+  transition: transform 0.3s ease-in-out;
+}
+.icon-arrow_down::before {
+  content: "\e004";
+}
+.accordion__item--open > .accordion__header .accordion__icon [class^="icon"] {
+  transform: rotate(180deg);
+}
+[class*=" icon-"]::before,
+[class^="icon-"]::before {
+  position: relative;
+  font-family: "BASF_IconFontDeprecated" !important;
+  font-size: 68%;
+  line-height: 1;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+.accordion__item:last-of-type::after {
+  content: "";
+  display: block;
+  background-color: var(--grey35);
+  height: 1px;
+  width: 100%;
+}
+.accordion__item--open > .accordion__content {
+  display: block;
+}
+.accordion__content--fullWidth {
+  width: 100%;
+  margin-left: 0;
+}
+.accordion__content {
+  background-color: var(--white);
+  flex: 1 0 auto;
+  overflow: hidden;
+  padding: 14px 0 35px;
+  position: relative;
+  display: none;
+  width: 100%;
+}
+/***************************** end ACCORDION ********************************/
+
+/* 
+
+* @Description: freeTables OM forms - test CSS
+* @author ArajarDW
+* @since  28112023
+
+*/
+
+.shapedtable-records {
+  width: 100% !important;
+  margin-top: 4rem;
+  /* border: 3px solid red !important; */
+  margin-top: 4rem;
+}
+.shapedtable-records thead {
+  border-bottom: 1px solid grey;
+  /* border: 3px solid blue !important; */
+  margin-top: 4rem;
+}
+.shapedtable-records tbody {
+  border-bottom: 1px solid grey;
+  /* border: 3px solid green !important; */
+  margin-top: 4rem;
+}
+.shapedtable-records > table {
+  border-bottom: none;
+}
+.shapedtable-records > thead > tr > th {
+  padding-bottom: 0;
+  /* border: 1px solid blue; */
+}
+.shapedtable-records thead tr th table {
+  padding-bottom: 0;
+  border: 2px solid red;
+  background-color: blue !important;
+  z-index: 2000;
+  position: relative;
+  opacity: 1;
+}
+
+th.ShapTab_Header_Text {
+  color: #004a96 !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  empty-cells: show;
+  padding: 1rem 0 1rem 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.ShapTab_RowEven_BG > table {
+  width: 100% !important;
+}
+
+/* .ShapTab_Header_BG > th {
+  width: 100%;
+} */
+
+/*END PERCENTAGE BAR CHART - OM Forms*/
+
+/* test for data pickers in OM forms */
+
+.dataPickerContainer > div {
+  display: flex;
+}
+.dataPickerContainer .Button_Primary {
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.dataPickerContainer .Button_Primary::before {
+  font-size: clamp(1.2rem, 1vw, 1.4rem);
+}
+
+.ShapTab_Header_BG > th {
+  border-bottom: 0;
+  padding: 0;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+/* styles for AOC tables */
+
+.Table_Standard.guid-DEA5398F5277C544E551C0B29E4085FCA081E11A {
+  padding: 1rem 2rem;
+}
+.Table_Standard.guid-DEA5398F5277C544E551C0B29E4085FCA081E11A > tbody tr td {
+  /* color: red; */
+  border-right: 0.1rem solid rgba(0, 0, 0, 0.5);
+  empty-cells: show;
+  padding: 1.2rem 2rem 1.2rem 1rem;
+  border-bottom: 0.1rem solid #dcdcdc;
+  vertical-align: top;
+  cursor: pointer;
+  max-width: 300px;
+  font-size: small;
+  white-space: normal;
+}
+
+/* .Table_Standard.guid-DEA5398F5277C544E551C0B29E4085FCA081E11A
+  > tbody
+  tr
+  td:nth-child(odd) {
+  background: rgba(0, 0, 0, 0.025);
+} */
+
+.Table_Standard.guid-DEA5398F5277C544E551C0B29E4085FCA081E11A
+  > tbody
+  tr
+  td
+  div {
+  max-width: 300px;
+  word-wrap: break-word;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.Table_Standard.guid-DEA5398F5277C544E551C0B29E4085FCA081E11A > colgroup > col {
+  min-width: 200px !important;
+  max-width: 300px !important;
+  border: 2px solid red;
+}
+
+.Table_Standard.guid-DEA5398F5277C544E551C0B29E4085FCA081E11A
+  > thead
+  > tr
+  > th {
+  font-size: 1.4rem;
+}
+
+.Table_Standard.guid-DEA5398F5277C544E551C0B29E4085FCA081E11A .numerical {
+  text-align: left;
+}
+
+.Table_Standard.guid-51AFF5A4D96F239771600B9F62E74687E80AEF9C th,
+.Table_Standard.guid-CE9933FB111D5E8BB1E0938B6AECABD87F9A37D5 th {
+  text-align: left !important;
+}
+.Dropdown_Standard {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  font-size: 1.2rem;
+  width: 100%;
+}
+select.Dropdown_Standard {
+  border: 1px solid var(--grey35);
+  padding: 0 22px 0 9px;
+  width: 100%;
+  /* height: 35px; */
+  color: var(--grey80);
+  background-image: url(../../images/assets/999_ApplicationStyle_GSSO/SelectIcon_normal.png);
+  background-position: center right 1rem;
+  background-repeat: no-repeat;
+  background-color: var(--white);
+  transition: border 0.2s ease-out;
+  cursor: pointer;
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+select.Dropdown_Standard {
+  background-position-x: 95%;
+}
+.Table_Standard.guid-C0ED7E80B370598115D8927D5E199786B90ECFB8 div > a {
+  margin-left: 1rem;
+}
+.Table_Standard th span {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+tbody > tr > td {
+  padding-left: 0 !important;
+}
+
+tbody > tr {
+  vertical-align: middle !important;
+}
+
+tbody {
+  min-width: 240px;
+  max-width: 240px;
+  vertical-align: top;
+}
+
+/* Description: Styles for free tables in OM forms/ AoC etc
+/* OM forms administration page table, super hot fix before migration
+** Author: ArajarDW
+** Since: 240123
+*/
+
+.freeTableRows {
+  empty-cells: show;
+  min-height: 40px;
+  max-height: 40px;
+  min-width: 150px;
+  border: 0;
+  border-bottom: 1px solid var(--grey10);
+  padding: 10px 2px 10px 10px;
+  color: var(--grey70);
+  transition: all 0.2s ease-in;
+  display: flex;
+  align-items: center;
+}
+
+.freeTableRows,
+.shapedtable-records > thead > tr {
+}
+
+.freeTableRows:hover {
+  background-color: var(--darkblue5);
+  color: var(--grey80);
+}
+
+/* table#ID_shapedtablebase4807DBCE_records {
+  border: 1px solid red;
+  margin-top: 2rem;
+} */
+
+table#ID_shapedtablebase4807DBCE_records
+  tbody
+  tr
+  td
+  > table
+  tbody
+  tr
+  td
+  > table
+  tbody
+  tr
+  td:first-child {
+  /* background: red; */
+  /* width: 200px; */
+}
+table#ID_shapedtablebase4807DBCE_records
+  tbody
+  tr
+  td
+  > table
+  tbody
+  tr
+  td
+  > table
+  tbody
+  tr
+  td:nth-child(2) {
+  width: 100%;
+}
+
+.Table_Standard table td,
+.Table_Standard table tr {
+  border: 0;
+  background-image: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  /* min-width: 200px; */
+  cursor: pointer;
+}
+
+/* .Table_Standard th {
+  width: 0;
+} */
