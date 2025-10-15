@@ -1,0 +1,2 @@
+
+An app that users can insert a destination of their choice, whereby they can input a number of key words as filters ie galleries (and type), restaurants (specifying tastes), beaches (snorkelling, sunbathing etc). From these and based on a timeframe, an AI powered schedule is delivered, outputting a unique personalised agenda for the trip
