@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d20372029ae05c19",
+            "id": "d0c97b53be47a111",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Webpack/Setting up webpack 5.md",
+                "file": "General/Feedback training.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,6 +65,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "8d48a01192add666",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Webpack/Setting up webpack 5.md",
+                "file": "General/Feedback training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Webpack/Setting up webpack 5.md",
+                "file": "General/Feedback training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Webpack/Setting up webpack 5.md"
+                "file": "General/Feedback training.md"
               }
             }
           }
@@ -137,20 +145,33 @@
     "width": 200,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
   },
-  "active": "d20372029ae05c19",
+  "active": "d0c97b53be47a111",
   "lastOpenFiles": [
-    "Typescript/01_Typescript Basics.md",
-    "Akumina/Adding CSS.md",
-    "Typescript/Best practices.md",
-    "Akumina/02_Documentation.md",
-    "Akumina/01_Basic installation.md",
-    "Extensions_apps/Chrome extensions.md",
-    "Intrexx/Creating an application.md",
-    "HTML/HTML One-Liners.md",
-    "Git_commands/Pull request.md",
-    "Git_commands/Git inside VS code.md"
+    "General/Feedback training.md",
+    "Random/What will be the excuses....md",
+    "Flats Flo/Flat text IT.md",
+    "Flats Flo",
+    "Random",
+    "What will be the excuses",
+    "React/Toggle Switch.md",
+    "React/Large scale apps.md",
+    "React/Hooks.md",
+    "React/Context & hooks.md",
+    "React/Common mistakes.md",
+    "React/Best practices.md",
+    "React/Advanced react - various.md",
+    "React/02_Cheat_sheet.md",
+    "React/01_Documentation.md",
+    "React/Styled_components/Theming with styled components.md"
   ]
 }
