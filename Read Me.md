@@ -1,4 +1,4 @@
-## A collection of notes and tips for developement and design
+## A collection of notes and tips for development and design
 
 Download Obsidian here: [https://obsidian.md/](https://obsidian.md/ "https://obsidian.md/")
 

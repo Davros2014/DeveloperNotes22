@@ -1,0 +1,1594 @@
+/*
+* Icons styles - migration test -  copied lines 3767-5700 from user defined styles 
+*
+* @author ArajarDW
+* @since	1.0.0
+
+*/
+/* ArajarDW added font-face rules here as they do not appear to work in the style.css file located here css\BASF_Icons_Fonts\fonts\BASF_Icons_2019\style.css */
+/* @font-face {
+  font-family: "BASF_IconFontDeprecated";
+  src: url("../BASF_Icons_Fonts/fonts/BASF_Iconfont.woff") format("woff");
+}
+@font-face {
+  font-family: "BASF_IconFont";
+  src: url("../BASF_Icons_Fonts/fonts/BASF_Icons.woff") format("woff");
+} */
+@font-face {
+  font-family: "BASF_IconFont_2019";
+  src: url("../BASF_Icons_Fonts/fonts/BASF_Icons_2019/fonts/BASF_Icons_2019.eot");
+  src: url("../BASF_Icons_Fonts/fonts/BASF_Icons_2019/fonts/BASF_Icons_2019.eot?#iefix")
+      format("embedded-opentype"),
+    url("../BASF_Icons_Fonts/fonts/BASF_Icons_2019/fonts/BASF_Icons_2019.woff")
+      format("woff");
+}
+/* @font-face {
+  font-family: "GSSO_External_Font";
+  src: url("../BASF_Icons_Fonts/fonts/gsso_iconfont/fonts/icomoon.eot");
+  src: url("../BASF_Icons_Fonts/fonts/gsso_iconfont/fonts/icomoon.eot?#iefix")
+      format("embedded-opentype"),
+    url("../BASF_Icons_Fonts/fonts/gsso_iconfont/fonts/icomoon.svg")
+      format("svg"),
+    url("../BASF_Icons_Fonts/fonts/gsso_iconfont/fonts/icomoon.ttf")
+      format("truetype"),
+    url("../BASF_Icons_Fonts/fonts/gsso_iconfont/fonts/icomoon.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/* Input fields */
+::selection,
+::-moz-selection {
+  background: var(--darkblue25);
+}
+
+[aria-required="true"] {
+  border-bottom: 0;
+}
+
+.Editfield_Standard[aria-readonly="true"],
+.Editfield_Standard[readonly="true"],
+.Editfield_Standard[aria-readonly=""],
+.Editfield_Standard[readonly=""],
+input[type="text"][readonly="true"],
+input[type="text"][aria-readonly="true"],
+input[type="text"][readonly=""],
+input[type="text"][aria-readonly=""],
+input[type="password"][readonly="true"],
+input[type="password"][aria-readonly="true"],
+input[type="password"][readonly=""],
+input[type="password"][aria-readonly=""],
+textarea[readonly="true"],
+textarea[aria-readonly="true"],
+.Textarea_Standard[readonly="true"],
+.Textarea_Standard[aria-readonly="true"],
+.Share_Textarea_Standard[readonly="true"],
+.Share_Textarea_Standard[aria-readonly="true"],
+input[type="text"].disabled,
+.Textarea_Standard.disabled,
+textarea.disabled,
+input[type="text"].disabled,
+.Editfield_Standard:disabled,
+input[type="text"]:disabled,
+input[type="password"]:disabled,
+textarea:disabled,
+.Textarea_Standard:disabled,
+.Share_Textarea_Standard:disabled {
+  opacity: 1;
+  border: 0.1rem solid var(--grey15);
+  background-color: var(--grey10);
+  box-shadow: none;
+  pointer-events: all;
+}
+a.disabled,
+.Container_TabMenu .Radio_Standard.disabled {
+  pointer-events: none;
+  opacity: 0.3;
+}
+.Button.Primary.disabled,
+.Button.Secondary.disabled,
+.Listbox_Extended > ul > li.data.disabled {
+  background-color: var(--grey);
+  opacity: 0.3;
+}
+
+.Errorbox,
+.Warningbox,
+.Successbox,
+.Infobox,
+.Defaultbox {
+  border-style: solid;
+  border-width: 2px;
+  padding: 1.5rem 2rem;
+}
+
+.Errorbox {
+  border-color: var(--red);
+  background-color: var(--red);
+}
+
+.Warningbox {
+  border-color: var(--orange);
+  background-color: var(--orange);
+}
+
+.Successbox {
+  border-color: var(--lightgreen);
+  background-color: var(--lightgreen);
+}
+
+.Infobox {
+  border-color: var(--darkblue25);
+  background-color: var(--darkblue25);
+  margin: 0 0 2rem 0;
+  font-size: clamp(1.2rem, 3vw, 1.4rem);
+  line-height: clamp(1.6rem, 2vw, 1.8rem);
+}
+
+.Defaultbox {
+  border-color: var(--black);
+}
+
+.Infobox *,
+.Warningbox *,
+.Errorbox *,
+.Successbox *,
+.Defaultbox * {
+  display: flex;
+  margin: 0;
+}
+
+.Infobox *,
+.Warningbox *,
+.Errorbox *,
+.Successbox *,
+.Errorbox,
+.Warningbox,
+.Successbox,
+.Infobox {
+  color: var(--white);
+}
+
+.info::before,
+.warning::before,
+.success::before,
+.error::before {
+  margin-right: 0.5rem;
+}
+.warning {
+  color: var(--orange);
+}
+.success {
+  color: var(--lightgreen);
+}
+.success::before {
+  content: "\e911";
+  font-family: var(--BASF-IconFont-2019) !important;
+  font-weight: 900;
+  line-height: 1;
+}
+.Infobox .info,
+.Warningbox .warning,
+.Errorbox .error,
+.Successbox .success,
+.Errorbox,
+.Warningbox,
+.Successbox,
+.Infobox {
+  color: var(--white);
+  line-height: 2.4rem;
+}
+.Infotext,
+.infotext,
+.Infotext_Small,
+.infotext_small {
+  font-size: 1.3rem;
+  color: var(--grey45);
+}
+.Infotext b.warning::before,
+.infotext b.warning::before,
+.Infotext_Small b.warning::before {
+  content: "";
+  margin-right: 0.3rem;
+}
+.Infotext b.warning,
+.infotext b.warning,
+.Infotext_Small b.warning {
+  font-size: 1.5rem;
+  margin-right: 0.3rem;
+  display: inline-block;
+  /* vertical-align: bottom; */
+  /* height: 1rem; */
+  vertical-align: middle;
+}
+.Infotext_Small b.warning {
+  font-size: 0.75rem;
+}
+.requiredAsterisk {
+  font-size: 1.5rem;
+  vertical-align: bottom;
+  margin-right: 0.3rem;
+  height: 1rem;
+  display: inline-block;
+  color: var(--orange);
+}
+.GSSO_tooltip {
+  cursor: help;
+  display: inline-block;
+  position: relative;
+}
+.GSSO_tooltip label,
+.GSSO_tooltip h2 {
+  cursor: help;
+}
+.GSSO_tooltip label::after,
+.GSSO_tooltip h2::after {
+  content: "\f128";
+  font-family: var(--font-awesome) !important;
+  font-weight: 900;
+  font-size: clamp(1.1rem, 1vw, 1.25rem);
+  color: var(--darkblue);
+  margin-left: 0.5rem;
+  position: relative;
+  cursor: help;
+}
+.GSSO_tooltip.Info label::after,
+.GSSO_tooltip.Info h2::after {
+  content: "\f129";
+  margin-left: 0.7rem;
+}
+.GSSO_tooltip.Warning label::after,
+.GSSO_tooltip.Warning h2::after {
+  content: "\f071";
+  font-family: var(--font-awesome);
+  color: var(--orange);
+  margin-left: 0.5rem;
+}
+.GSSO_tooltip.Success label::after,
+.GSSO_tooltip.Success h2::after {
+  content: "\f00c";
+  color: var(--lightgreen);
+}
+.GSSO_tooltip.Error label::after,
+.GSSO_tooltip.Error h2::after,
+.GSSO_tooltip.Error.Text_H2::after {
+  content: "\f00d";
+  color: var(--red);
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+}
+.GSSO_tooltip.Error h2::after {
+  margin-left: 0.7rem;
+  font-size: 1.2rem;
+  top: -0.1rem;
+}
+.GSSO_tooltip.Warning .tooltipcontent {
+  background-color: var(--orange);
+}
+.GSSO_tooltip.Success .tooltipcontent {
+  background-color: var(--lightgreen);
+}
+.GSSO_tooltip.Error .tooltipcontent {
+  background-color: var(--orange);
+}
+.GSSO_tooltip .tooltipcontent::before {
+  content: "";
+  position: absolute;
+  top: 0.7rem;
+  left: -2.5rem;
+  border: 1.5rem solid transparent;
+  border-right-color: var(--darkblue25);
+}
+
+.GSSO_tooltip.Warning .tooltipcontent::before {
+  border-right-color: var(--orange);
+}
+.GSSO_tooltip.Success .tooltipcontent::before {
+  border-right-color: var(--lightgreen);
+}
+.GSSO_tooltip.Error .tooltipcontent::before {
+  border-right-color: var(--red);
+}
+.GSSO_tooltip .tooltipcontent {
+  opacity: 0;
+  visibility: hidden;
+  max-width: 750px;
+  background-color: var(--darkblue25);
+  color: var(--white);
+  padding: 1.5rem 1.5rem;
+  margin: -0.8rem 0 0 1.75rem;
+  position: absolute;
+  z-index: 9999;
+  box-shadow: 0 10px 20px rgba(0, 74, 150, 0.19),
+    0 6px 6px rgba(0, 74, 150, 0.23);
+  line-height: 2rem;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+  min-width: 20rem;
+}
+.GSSO_tooltip .tooltipcontent div {
+  margin: 7px 0;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.GSSO_tooltip:hover .tooltipcontent,
+.tooltipcontent:hover {
+  opacity: 1;
+  visibility: visible;
+}
+.GSSO_tooltip label.Text_H2::after,
+.GSSO_tooltip h2::after {
+  margin-left: 14px;
+  font-size: 1.1rem;
+  top: -4px;
+}
+.GSSO_tooltip h2,
+.GSSO_tooltip.Text_H2 {
+  display: inline;
+}
+.Table_Standard img[id*="imageactioncontrol"] {
+  width: auto;
+  height: auto;
+}
+.Button_Portlet_Square {
+  border: 1px solid;
+  background-position: center;
+  cursor: pointer;
+  float: right;
+  position: relative;
+  top: -6px;
+  font-family: var(--font-awesome) !important;
+  font-weight: 900;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  height: 30px;
+  width: 30px;
+  line-height: 27px;
+  font-size: 1rem;
+  transition: background 0.2s ease-in;
+}
+.Button_Portlet_Square img {
+  display: none;
+}
+.Button_Portlet_Square.white:focus,
+.Button_Portlet_Square.white:hover {
+  background-color: var(--white);
+}
+.Button_Portlet_Square.white:focus::before,
+.Button_Portlet_Square.white:hover::before {
+  color: var(--darkblue);
+}
+.Button_Portlet_Square.white {
+  border-color: var(--darkblue30);
+  color: var(--white);
+}
+.Button_Portlet_Square.grey:focus,
+.Button_Portlet_Square.grey:hover,
+.Button_Portlet_Square.grey:focus::before,
+.Button_Portlet_Square.grey:hover::before {
+  background-color: var(--grey);
+}
+.Button_Portlet_Square.grey:focus::before,
+.Button_Portlet_Square.grey:hover::before {
+  color: var(--grey);
+}
+.Button_Portlet_Square.grey {
+  border-color: var(--grey);
+  color: var(--grey);
+}
+.Button_Portlet_Square.add::before {
+  content: "\f067";
+}
+.Button_Portlet_Square.settings::before {
+  content: "\f013";
+}
+
+/* ------------- From Icons.vm - for copy to clipboard feature -------------*/
+
+a.copied::after {
+  content: "Copied to clipboard" !important;
+  font-family: var(--primary-font) !important;
+  position: absolute;
+  display: block;
+  font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+  background: linear-gradient(
+    180deg,
+    var(--grey80) 0%,
+    rgb(66, 66, 66) 50%,
+    var(--grey80) 96%
+  );
+  color: var(--white);
+  padding: clamp(0.15rem, 1.5vw, 0.25rem) clamp(0.95rem, 1.5vw, 1.25rem);
+  top: -4rem;
+  opacity: var(--opacity50);
+  box-shadow: 1px 1px 4px 8px var(--opacity50);
+  border-radius: 0.5rem;
+  opacity: 1;
+  transition: 0.25s opacity ease-in-out;
+}
+
+/* ----------------------------- START ICON STYLES ----------------------------*/
+
+.Icon::before,
+.Icon::after,
+input[role="button"]::before,
+input[type="submit"]::before,
+td.Icon a::before {
+  font-family: var(--font-awesome);
+  font-weight: 900;
+  margin-right: clamp(0.5rem, 2vw, 0.75rem);
+  color: inherit;
+  font-size: clamp(1.2rem, 0.75vw, 3rem);
+  vertical-align: middle;
+}
+.Button_Primary.Icon.Only {
+  margin-right: 0;
+  padding: 0 0 0 1rem;
+}
+.Icon {
+  position: relative;
+}
+.Icon.After::after {
+  margin-left: clamp(0.5rem, 2vw, 0.75rem);
+  margin-right: 0;
+  color: inherit;
+}
+.Unicode {
+  color: var(--grey25); /* unicode text in design system > layout > icons */
+}
+h2.Icon::before,
+.Text_H2.Icon::before {
+  color: var(--iconColor);
+  display: inline-block;
+  font-size: 3rem; /* By ThaiT1 - Icon size adjusted to the Wizard Tab titel text size example in app. 'SuccessFactors Item Request Form' */
+}
+h5.Icon::before,
+.Text_H5.Icon::before {
+  color: var(--iconColor);
+}
+.Icon.Red::before,
+.Chip.Icon.Red::before,
+.Table_Standard tbody tr td[id*="imageactioncontrol"].Icon.Red a::before {
+  color: var(--red);
+}
+.Icon.Green::before,
+.Chip.Icon.Green::before,
+.Table_Standard tbody tr td[id*="imageactioncontrol"].Icon.Green a::before {
+  color: var(--lightgreen);
+}
+.Icon.Orange::before,
+.Chip.Icon.Orange::before,
+.Table_Standard tbody tr td[id*="imageactioncontrol"].Icon.Orange a::before {
+  color: var(--orange);
+}
+.Icon.Grey::before,
+.Chip.Icon.Grey::before,
+.Table_Standard tbody tr td[id*="imageactioncontrol"].Icon.Grey a::before {
+  color: var(--grey45);
+}
+.Table_Standard tbody tr td[id*="imageactioncontrol"].Icon::before {
+  content: "";
+}
+.Table_Standard tbody tr td[id*="imageactioncontrol"].Icon a::before,
+.ShapTab_RowEven_BG a.Icon::before,
+.ShapTab_RowOdd_BG a.Icon::before {
+  transition: color 0.2s ease-in;
+  position: relative;
+}
+.Table_Standard tbody tr td[id*="imageactioncontrol"].Icon a {
+  padding: 9px;
+}
+.Table_Standard tbody tr td[id*="imageactioncontrol"].Icon {
+  padding: 0;
+}
+.Link_Icon.Compare::before,
+.Icon.Compare::before,
+td[id*="imageactioncontrol"].Icon.Compare a::before {
+  content: "\f52c";
+}
+.Link_Icon.Edit::before,
+.Icon.Edit::before,
+td[id*="imageactioncontrol"].Icon.Edit a::before {
+  content: "\f304";
+}
+.Link_Icon.Money::before,
+.Icon.Money::before {
+  content: "\f3d1";
+}
+.Link_Icon.Calendar::before,
+.Icon.Calendar::before,
+td[id*="imageactioncontrol"].Icon.Calendar a::before {
+  content: "\f073";
+}
+.Link_Icon.ExternalLink::before,
+.Icon.ExternalLink::before,
+td[id*="imageactioncontrol"].Icon.ExternalLink a::before {
+  content: "\f35d";
+}
+.Link_Icon.Send::before,
+.Icon.Send::before,
+td[id*="imageactioncontrol"].Icon.Send a::before {
+  content: "\f1d8";
+}
+.Link_Icon.Sort::before,
+.Icon.Sort::before {
+  content: "\f0dc";
+}
+.Link_Icon.Reply::before,
+.Icon.Reply::before {
+  content: "\f3e5";
+}
+.Link_Icon.Redo::before,
+.Icon.Redo::before {
+  content: "\f064";
+}
+.Link_Icon.AddAppointment::before,
+.Icon.AddAppointment::before,
+td[id*="imageactioncontrol"].Icon.AddAppointment a::before {
+  content: "\f271";
+}
+.Link_Icon.Export::before,
+.Icon.Export::before,
+td[id*="imageactioncontrol"].Icon.Export a::before {
+  content: "\f56e";
+}
+.Link_Icon.Recommend::before,
+.Icon.Recommend::before {
+  content: "\f0a1";
+}
+.Link_Icon.Add::before,
+.Icon.Add::before,
+td[id*="imageactioncontrol"].Icon.Add a::before {
+  content: "\f067";
+}
+.Link_Icon.AddFavourite::before,
+.Icon.AddFavourite::before {
+  content: "\f005";
+  font-weight: 200; /* creates outlined version of Favourite icon */
+}
+.Link_Icon.RemoveFavourite::before,
+.Icon.RemoveFavourite::before,
+.Icon.Favourite::before,
+.Content_Module_Headline.Icon.Favorites::before {
+  content: "\f005";
+}
+.Link_Icon.Close::before,
+.Link_Icon.Cancel::before,
+.Icon.Close::before,
+.Icon.Cancel::before,
+.GSSO_Searchresults_Infobox_Wrapper::after {
+  content: "\f00d";
+}
+.Link_Icon.Close::before,
+.Icon.Close::before {
+  content: "\f00d";
+}
+.Link_Icon.Save::before,
+.Icon.Save::before {
+  content: "\f0c7";
+}
+.Link_Icon.Like::before,
+.Icon.Like::before,
+td[id*="imageactioncontrol"].Icon.Like a::before {
+  content: "\f004";
+}
+.Link_Icon.Like2::before,
+.Icon.Like2::before,
+td[id*="imageactioncontrol"].Icon.Like2 a::before {
+  content: "\f164";
+}
+.Link_Icon.Unlike2::before,
+.Icon.Unlike2::before,
+td[id*="imageactioncontrol"].Icon.Unlike2 a::before {
+  content: "\f164";
+}
+.Link_Icon.Unlike::before,
+.Icon.Unlike::before,
+td[id*="imageactioncontrol"].Icon.Unlike a::before {
+  content: "\f004";
+  font-weight: 400 !important; /*normal font weight is bold which is equal to font awesome solid style. Fontweight 400 or regular makes the icon regular */
+}
+.Link_Icon.AddUser::before,
+.Icon.AddUser::before {
+  content: "\f234";
+}
+.Link_Icon.RemoveUser::before,
+.Icon.RemoveUser::before {
+  content: "\f235";
+}
+.Link_Icon.ArrowUp::before,
+.Icon.ArrowUp::before,
+td[id*="imageactioncontrol"].Icon.ArrowUp a::before {
+  content: "\f062";
+}
+.Link_Icon.ArrowRight::before,
+.Icon.ArrowRight::before,
+.Icon.ArrowRight.After::after,
+td[id*="imageactioncontrol"].Icon.ArrowRight a::before {
+  content: "\f061";
+}
+.Link_Icon.ArrowDown::before,
+.Icon.ArrowDown::before,
+td[id*="imageactioncontrol"].Icon.ArrowDown a::before {
+  content: "\f063";
+}
+.Link_Icon.ArrowLeft::before,
+.Icon.ArrowLeft::before,
+td[id*="imageactioncontrol"].Icon.ArrowLeft a::before {
+  content: "\f060";
+}
+.Link_Icon.Attachment::before,
+.Icon.Attachment::before,
+td[id*="imageactioncontrol"].Icon.Attachment a::before {
+  content: "\f0c6";
+}
+.Link_Icon.Open::before,
+.Icon.Open::before,
+td[id*="imageactioncontrol"].Icon.Open a::before {
+  content: "\f07c";
+}
+.Link_Icon.Check::before,
+.Icon.Check::before,
+.success::before,
+td[id*="imageactioncontrol"].Icon.Check a::before {
+  content: "\f00c";
+}
+
+.Text_Label_Strong.valid::after,
+.Text_Label.valid::after {
+  content: "\e911";
+  margin-left: 5px;
+  color: var(--lightgreen);
+  font-size: 0.875rem;
+  font-family: var(--BASF-IconFont-2019) !important;
+  font-weight: normal;
+  line-height: 0;
+  top: 1px;
+  position: relative;
+}
+.Text_Label_Strong.valid,
+.Text_Label.valid,
+.Text_Label_Strong.valid::before,
+.Text_Label.valid::before {
+  color: var(--lightgreen);
+}
+.Link_Icon.CheckAll::before,
+.Icon.CheckAll::before,
+td[id*="imageactioncontrol"].Icon.CheckAll a::before {
+  content: "\f0c8";
+}
+.Link_Icon.UncheckAll::before,
+.Icon.UncheckAll::before,
+td[id*="imageactioncontrol"].Icon.UncheckAll a::before {
+  content: "\f14a";
+}
+.Link_Icon.Comment::before,
+.Icon.Comment::before,
+.Icon.Posts::before,
+td[id*="imageactioncontrol"].Icon.Comment a::before {
+  content: "\f4ad";
+}
+.Link_Icon.Comment_Light::before,
+.Icon.Comment_Light::before {
+  content: "\f075";
+}
+.Link_Icon.Feedback::before,
+.Icon.Feedback::before,
+td[id*="imageactioncontrol"].Icon.Feedback a::before {
+  content: "\f4ad";
+}
+.Link_Icon.Configure::before,
+.Icon.Configure::before,
+.Icon.Tools::before,
+td[id*="imageactioncontrol"].Icon.Configure a::before {
+  content: "\f0ad";
+}
+.Link_Icon.Copy::before,
+.Icon.Copy::before,
+td[id*="imageactioncontrol"].Icon.Copy a::before {
+  content: "\f0c5";
+}
+.Link_Icon.Search::before,
+.Icon.Search::before,
+td[id*="imageactioncontrol"].Icon.Search a::before {
+  content: "\f002";
+}
+/* .Link_Icon.Delete::before,
+.Icon.Delete::before,
+td[id*="imageactioncontrol"].Icon.Delete a::before,
+.PortletWrapper.timezones a.Intranet_Link:hover::after,
+.File_Edit_Standard .ul_images .delete::before,
+.File_Edit_Basic .ul_images .delete::before,
+.File_Edit_Advanced .ul_images .delete::before,
+.File_Edit_Minimal .ul_images .delete::before,
+[id*="filecontrol"] .delete::before {
+  content: "\f1f8";
+  color: var(--red);
+} */
+
+.Link_Icon.Delete::before,
+.Link_Icon.delete::before,
+.Icon.Delete::before,
+td[id*="imageactioncontrol"].Icon.Delete a::before,
+.PortletWrapper.timezones a.Intranet_Link:hover::after,
+.File_Edit_Standard .ul_images .delete::before,
+.File_Edit_Basic .ul_images .delete::before,
+.File_Edit_Advanced .ul_images .delete::before,
+.File_Edit_Minimal .ul_images .delete::before,
+[id*="filecontrol"] .delete::before {
+  content: "\e949";
+  font-family: "BASF_IconFont_2019" !important;
+  font-size: 1.4rem;
+  /* line-height: 1; */
+  color: var(--red);
+  margin: 0 0.75rem 0 0.25rem;
+  vertical-align: middle;
+}
+
+button .Icon.Delete::before,
+a .Icon.Delete::before {
+  color: var(--white);
+}
+
+.File_Edit_Standard .ul_images .delete,
+.File_Edit_Basic .ul_images .delete,
+.File_Edit_Advanced .ul_images .delete,
+.File_Edit_Minimal .ul_images .delete {
+  cursor: pointer;
+  top: -15px;
+  position: relative;
+  box-shadow: none;
+  float: right;
+  font-size: 1.125rem;
+  padding: 0 10px;
+}
+.Table_Standard tbody tr td[id*="imageactioncontrol"].Icon.Delete a::before {
+  color: var(--red);
+}
+.Table_Standard
+  tbody
+  tr
+  td[id*="imageactioncontrol"].Icon.Delete
+  a:hover::before {
+  color: var(--grey);
+}
+.Link_Icon.Help::before,
+.Icon.Help::before,
+td[id*="imageactioncontrol"].Icon.Help a::before {
+  content: "\f128";
+}
+.Link_Icon.Info::before,
+.Icon.Info::before,
+.info::before,
+td[id*="imageactioncontrol"].Icon.Info a::before {
+  content: "\f129";
+}
+.Icon.InfoCircle::before,
+td[id*="imageactioncontrol"].Icon.InfoCircle a::before {
+  content: "\f05a";
+}
+/* .ContentContainer .Actions .Action.Icon.InfoCircle::before {
+  font-size: 1.3rem;
+  top: -1px;
+} */
+.Link_Icon.Up::before,
+.Icon.Up::before {
+  content: "\f077";
+}
+.Link_Icon.Right::before,
+.Icon.Right::before,
+.pagination .next a::after,
+a.link_mainNewsTeaser::before {
+  content: "\f054";
+}
+.Link_Icon.Down::before,
+.Icon.Down::before,
+.multisource-footer .pagination .showmore a::before {
+  content: "\f078";
+}
+.Link_Icon.Left::before,
+.Icon.Left::before,
+.pagination .previous a::before {
+  content: "\f053";
+}
+.Link_Icon.FirstAid::before,
+.Icon.FirstAid::before {
+  content: "\f0fa";
+}
+.Link_Icon.Print::before,
+.Icon.Print::before,
+td[id*="imageactioncontrol"].Icon.Print a::before {
+  content: "\f02f";
+}
+.Link_Icon.LinkExternal::before,
+.Icon.LinkExternal::before,
+td[id*="imageactioncontrol"].Icon.LinkExternal a::before {
+  content: "\f35d";
+}
+.Link_Icon.LinkInternal::before,
+.Icon.LinkInternal::before,
+td[id*="imageactioncontrol"].Icon.LinkInternal a::before {
+  content: "\f138";
+}
+.Link_Icon.Language::before,
+.Icon.Language::before {
+  content: "\f1ab";
+}
+.Link_Icon.Link::before,
+.Icon.Link::before,
+td[id*="imageactioncontrol"].Icon.Link a::before {
+  content: "\f0c1";
+}
+.Link_Icon.History::before,
+.Icon.History::before,
+td[id*="imageactioncontrol"].Icon.History a::before {
+  content: "\f1da";
+}
+.Link_Icon.List::before,
+.Icon.List::before,
+td[id*="imageactioncontrol"].Icon.List a::before {
+  content: "\f0ca";
+}
+.Link_Icon.Locked::before,
+.Icon.Locked::before,
+td[id*="imageactioncontrol"].Icon.Locked a::before {
+  content: "\f023";
+}
+.Link_Icon.Unlocked::before,
+.Icon.Unlocked::before,
+td[id*="imageactioncontrol"].Icon.Unlocked a::before {
+  content: "\f09c";
+}
+.Link_Icon.Email::before,
+.Link_Icon.newEmail::before,
+.Icon.Email::before,
+td[id*="imageactioncontrol"].Icon.Email a::before {
+  content: "\f0e0";
+}
+.Link_Icon.Share::before,
+.Icon.Share::before,
+td[id*="imageactioncontrol"].Icon.Share a::before {
+  content: "\f1e0";
+}
+.Link_Icon.Statistics::before,
+.Icon.Statistics::before,
+td[id*="imageactioncontrol"].Icon.Statistics a::before {
+  content: "\f080";
+}
+.Link_Icon.Refresh::before,
+.Icon.Refresh::before,
+.Content_Module_Headline.Icon.Refresh::before {
+  content: "\f2f9";
+}
+.Link_Icon.Upload::before,
+.Icon.Upload::before {
+  content: "\f093";
+}
+
+.Link_Icon.Users::before,
+.Icon.Users::before,
+.Icon.Groups::before,
+td[id*="imageactioncontrol"].Icon.Users a::before,
+.GSSO_Searchresult_Type.shareitContact::before {
+  content: "\f0c0";
+}
+
+.Link_Icon.AddGroup::before,
+.Icon.AddGroup::before,
+td[id*="imageactioncontrol"].Icon.AddGroup a::before {
+  content: "\f0c0";
+}
+
+.Link_Icon.RemoveGroup::before,
+.Icon.RemoveGroup::before,
+td[id*="imageactioncontrol"].Icon.RemoveGroup a::before {
+  content: "\f503";
+}
+
+.Link_Icon.User::before,
+.Icon.User::before,
+.Icon.People::before,
+td[id*="imageactioncontrol"].Icon.User a::before {
+  content: "\f007" !important;
+}
+
+.Link_Icon.Warning::before,
+.Icon.Warning::before td[id*="imageactioncontrol"].Icon.Warning a::before {
+  content: "\f071";
+  color: var(--orange);
+}
+.Warningbox .Icon.Warning,
+.Warningbox .Icon.Warning::before {
+  color: var(--red);
+}
+
+.error::before,
+td[id*="imageactioncontrol"].Icon.Error a::before {
+  content: "\f00d";
+  font-family: var(--font-awesome) !important;
+}
+
+.Text_Label_Strong.notvalid::after,
+.Text_Label.notvalid::after {
+  content: "\f00d";
+  font-family: var(--font-awesome) !important;
+}
+
+.Text_Label_Strong.notvalid,
+.Text_Label.notvalid,
+.Text_Label_Strong.notvalid label,
+.Text_Label.notvalid label,
+.Text_Label_Strong.notvalid::before,
+.Text_Label.notvalid::before {
+  color: var(--red);
+}
+
+.Text_Label_Strong.notvalid,
+.Text_Label.notvalid {
+  border: none;
+}
+
+.Link_Icon.Show::before,
+.Icon.Show::before,
+.Icon.Preview::before,
+td[id*="imageactioncontrol"].Icon.Show a::before,
+td[id*="imageactioncontrol"].Icon.Preview a::before {
+  content: "\f06e";
+}
+
+.Link_Icon.Settings::before,
+.Icon.Settings::before,
+.addon-res a::before,
+td[id*="imageactioncontrol"].Icon.Settings a::before {
+  content: "\f013";
+}
+
+.Link_Icon.RequestApproval::before,
+.Icon.RequestApproval::before {
+  content: "\f058";
+}
+
+.Icon.PortalSolutions::before,
+.Icon.WorkflowSolutions::before {
+  content: "";
+  position: relative;
+  background: url(../../images/BASF_darkblue/BASF_icons/portal_solutions_logo.svg)
+    no-repeat;
+  width: clamp(1.5rem, 2vw, 2.125rem);
+  height: clamp(1.5rem, 2vw, 2.125rem);
+  display: inline-block;
+  transition: all 0.2s ease-in;
+  top: 3px;
+}
+
+.Icon.PortalSolutions::before.icon-small,
+.Icon.WorkflowSolutions::before.icon-small {
+  width: clamp(1.15rem, 3vw, 1.3rem);
+  height: clamp(1.15rem, 3vw, 1.3rem);
+}
+
+.Action.Icon.PortalSolutions:hover::before,
+.Action.Icon.WorkflowSolutions:hover::before {
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: var(--grey);
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+
+.Link_Icon.EditCategory::before,
+.Icon.EditCategory::before {
+  content: "\f303";
+}
+.Link_Icon.Screenshot::before,
+.Icon.Screenshot::before {
+  content: "\f109";
+}
+.Link_Icon.Approve::before,
+.Icon.Approve::before {
+  content: "\f4fc";
+}
+.Link_Icon.Reject::before,
+.Icon.Reject::before {
+  content: "\f057";
+}
+.Link_Icon.Mobilephone::before,
+.Icon.Mobilephone::before {
+  content: "\f3cd";
+}
+.Link_Icon.Phone::before,
+.Icon.Phone::before,
+td[id*="imageactioncontrol"].Icon.Phone a::before {
+  content: "\f095";
+}
+.Link_Icon.Approver::before,
+.Icon.Approver::before {
+  content: "\f4fc";
+}
+.Link_Icon.Admin::before,
+.Icon.Admin::before {
+  content: "\f4fe";
+}
+
+/* MS SUITE ICONS */
+.Icon.Excel::before {
+  content: "\f1c3";
+}
+.Icon.Word::before {
+  content: "\f1c2";
+}
+.Icon.PowerPoint::before {
+  content: "\f1c4";
+}
+.Icon.Pdf::before {
+  content: "\f1c1";
+}
+/* END MS SUITE */
+
+.Icon.AudioFile::before {
+  content: "\f1c7";
+}
+.Icon.VideoFile::before {
+  content: "\f1c8";
+}
+.Icon.ImageFile::before {
+  content: "\f1c5";
+}
+.Icon.Download::before,
+td[id*="imageactioncontrol"].Icon.Download a::before {
+  content: "\f019";
+}
+.Icon.Smiley::before {
+  content: "\f118";
+  color: var(--darkblue);
+}
+.Icon.SadFace::before {
+  content: "\f5b4";
+  color: var(--red);
+}
+.Icon.NeutralFace::before {
+  content: "\f11a";
+  color: var(--lightgreen);
+}
+.Icon.Work::before {
+  content: "\f0b1";
+}
+.Icon.Contacts::before {
+  content: "\f2b9";
+}
+.Icon.Birthday::before {
+  content: "\f1fd";
+}
+.Icon.Friends::before {
+  content: "\f500";
+}
+.Icon.Education::before {
+  content: "\f19d";
+}
+.Icon.PersonalInfo::before {
+  content: "\f007";
+}
+.Icon.Bed::before {
+  content: "\f236";
+}
+.Icon.Plane::before {
+  content: "\f072";
+}
+.Icon.PlaneDeparture::before {
+  content: "\f5b0";
+}
+.Icon.PlaneArrival::before {
+  content: "\f5af";
+}
+.Icon.Suitcase::before {
+  content: "\f0f2";
+}
+.Icon.Train::before {
+  content: "\f238";
+}
+.Icon.Car::before {
+  content: "\f1b9";
+}
+.Icon.ProjectCard::before,
+td[id*="imageactioncontrol"].Icon.ProjectCard a::before {
+  content: "\f53d";
+}
+.Icon.Medal::before,
+td[id*="imageactioncontrol"].Icon.Medal a::before {
+  content: "\f5a2";
+}
+.Icon.Cart::before,
+td[id*="imageactioncontrol"].Icon.Cart a::before {
+  content: "\f07a";
+}
+.Icon.IdCard::before,
+.Content_Module_Headline.Icon.GeneralInfo::before,
+td[id*="imageactioncontrol"].Icon.IdCard a::before {
+  content: "\f2bb";
+}
+i.Link_Icon.Lightbulb::before,
+.Link_Icon.Lightbulb::before,
+.Icon.LightBulb::before,
+td[id*="imageactioncontrol"].Icon.LightBulb a::before {
+  content: "\f0eb";
+}
+.Icon.BookOpen::before,
+td[id*="imageactioncontrol"].Icon.BookOpen a::before {
+  content: "\f518";
+}
+.Icon.Filter::before,
+td[id*="imageactioncontrol"].Icon.Filter a::before {
+  content: "\f0b0";
+}
+.Icon.Building::before,
+td[id*="imageactioncontrol"].Icon.Building a::before {
+  content: "\f1ad";
+}
+.Icon.Archive::before,
+td[id*="imageactioncontrol"].Icon.Archive a::before {
+  content: "\f187";
+}
+.Icon.Sitemap::before,
+td[id*="imageactioncontrol"].Icon.Sitemap a::before {
+  content: "\f0e8";
+}
+.Icon.Right.After::after {
+  content: "\f054";
+}
+/* removes icons before the text */
+.Icon.DoubleRight.After::before,
+.Icon.Right.After::before,
+.ArrowRight.After::before {
+  display: none;
+}
+.Icon.DoubleRight::before {
+  content: "\f101";
+  font-family: var(
+    --font-awesome
+  ) !important; /* needs to remain because of the font-family applied in the a.copied::after style rule */
+}
+.Icon.Contacts::before,
+.Icon.InContacts::before,
+td[id*="imageactioncontrol"].Icon.Contacts a::before {
+  content: "\f4fc";
+}
+.Icon.UserTag::before,
+td[id*="imageactioncontrol"].Icon.UserTag a::before {
+  content: "\f507";
+}
+.Icon.OnOff::before,
+.Icon.Off::before,
+td[id*="imageactioncontrol"].Icon.Off a::before {
+  content: "\f204";
+}
+.Icon.OnOff.active::before,
+.Icon.On::before,
+td[id*="imageactioncontrol"].Icon.On a::before {
+  content: "\f205";
+}
+.Icon.News::before,
+td[id*="imageactioncontrol"].Icon.News a::before {
+  content: "\f1ea";
+  padding-right: 0.2rem;
+}
+.Icon.Documents::before,
+td[id*="imageactioncontrol"].Icon.Documents a::before {
+  content: "\f15b";
+  padding-left: 3px;
+}
+.Icon.CountDesc::before,
+td[id*="imageactioncontrol"].Icon.CountDesc a::before {
+  content: "\f886";
+}
+.Icon.CountAsc::before,
+td[id*="imageactioncontrol"].Icon.CountAsc a::before {
+  content: "\f162";
+}
+.Icon.Descending::before,
+td[id*="imageactioncontrol"].Icon.Descending a::before {
+  content: "\f160";
+}
+.Icon.Ascending::before,
+td[id*="imageactioncontrol"].Icon.Ascending a::before {
+  content: "\f884";
+}
+.Icon.Clock::before,
+td[id*="imageactioncontrol"].Icon.Clock a::before {
+  content: "\f017";
+}
+.Icon.Palette::before,
+td[id*="imageactioncontrol"].Icon.Palette a::before {
+  content: "\f53f";
+}
+.Icon.Undo::before,
+td[id*="imageactioncontrol"].Icon.Undo a::before {
+  content: "\f0e2";
+}
+.Icon.Code::before,
+td[id*="imageactioncontrol"].Icon.Code a::before {
+  content: "\f121";
+}
+.Icon.Chat::before,
+td[id*="imageactioncontrol"].Icon.Chat a::before {
+  content: "\f086";
+}
+.Icon.Home::before {
+  content: "\f015";
+}
+.Icon.Coins::before {
+  content: "\f51e";
+}
+.Icon.Keyboard::before {
+  content: "\f11c";
+}
+.Icon.Fax::before {
+  content: "\f1ac";
+}
+.Icon.Music::before {
+  content: "\f001";
+}
+.Icon.Pointer::before,
+td[id*="imageactioncontrol"].Icon.Pointer a::before {
+  content: "\f245";
+}
+.Icon.Bell::before,
+td[id*="imageactioncontrol"].Icon.Bell a::before {
+  content: "\f0f3";
+}
+.Icon.Image::before,
+td[id*="imageactioncontrol"].Icon.Image a::before {
+  content: "\f03e";
+}
+.Icon.Tag::before,
+td[id*="imageactioncontrol"].Icon.Tag a::before {
+  content: "\f02b";
+}
+.Icon.Tasks::before,
+td[id*="imageactioncontrol"].Icon.Tasks a::before {
+  content: "\f0ae";
+}
+.Icon.UserEdit::before,
+td[id*="imageactioncontrol"].Icon.UserEdit a::before {
+  content: "\f4ff";
+}
+.Icon.Maximize::before {
+  content: "\f2d0";
+}
+.Icon.Minimize::before {
+  content: "\f2d1";
+}
+.Icon.Font::before {
+  content: "\f031";
+}
+.Icon.Bold::before {
+  content: "\f032";
+}
+.Icon.Italic::before {
+  content: "\f033";
+}
+.Icon.Underline::before {
+  content: "\f0cd";
+}
+.Icon.Hash::before {
+  content: "\f292";
+}
+.Icon.DoubleLeft::before,
+.pagination .first a::before {
+  content: "\f100";
+}
+.Icon.DoubleRight.After::after,
+.pagination .last a::after {
+  content: "\f101";
+}
+.Icon.World::before {
+  content: "\f57d";
+}
+.Icon.EllipsisH::before {
+  content: "\f141";
+}
+.Icon.EllipsisV::before {
+  content: "\f142";
+}
+.Icon.Yammer::before,
+.Link_Icon.Yammer::before,
+td[id*="imageactioncontrol"].Icon.Yammer a::before {
+  content: "\f840";
+  font-family: "Font Awesome 5 Brands" !important;
+}
+.Icon.Dashboard::before {
+  content: "\f0ce";
+}
+.Icon.CloudSun::before {
+  content: "\f6c4";
+}
+.Icon.Cloud::before {
+  content: "\f0c2";
+}
+.Icon.Sun::before {
+  content: "\f185";
+}
+.Icon.Rain::before {
+  content: "\f740";
+}
+.Icon.Snow::before {
+  content: "\f2dc";
+}
+.Icon.Water::before {
+  content: "\f043";
+}
+.Icon.Wind::before {
+  content: "\f72e";
+}
+.Icon.Thermometer::before {
+  content: "\f2c8";
+}
+.Icon.Night::before {
+  content: "\f6c3";
+}
+.Icon.Location::before {
+  content: "\f3c5";
+}
+.Icon.Logout::before {
+  content: "\f2f5";
+}
+.Icon.Hide::before,
+td[id*="imageactioncontrol"].Icon.Hide a::before {
+  content: "\f070";
+}
+.Icon.CheckDouble::before,
+td[id*="imageactioncontrol"].Icon.CheckDouble a::before {
+  content: "\f560";
+}
+.Icon.Circle::before,
+td[id*="imageactioncontrol"].Icon.Circle a::before {
+  content: "\f111";
+}
+.Icon.DotCircle::before,
+td[id*="imageactioncontrol"].Icon.DotCircle a::before {
+  content: "\f192";
+}
+.Icon.Euro::before,
+td[id*="imageactioncontrol"].Icon.Euro a::before {
+  content: "\f153";
+}
+.Icon.Dollar::before,
+td[id*="imageactioncontrol"].Icon.Dollar a::before {
+  content: "\f155";
+}
+.Icon.Meeting::before {
+  content: "\f64a";
+}
+.Icon.Video::before {
+  content: "\f03d";
+}
+.Icon.Database::before {
+  content: "\f1c0";
+}
+.Icon.Teams::before {
+  content: "\f500";
+}
+.Icon.Bug::before {
+  content: "\f188";
+}
+.Icon.Receipt::before {
+  content: "\f543";
+}
+.Icon.TextFile::before,
+.Icon.Invoice::before {
+  content: "\f15c";
+}
+.Icon.Sync::before,
+td[id*="imageactioncontrol"].Icon.Sync a::before {
+  content: "\f2f1";
+}
+.Icon.Tap::before,
+td[id*="imageactioncontrol"].Icon.Tap a::before {
+  content: "\f25a";
+}
+.Icon.Quote::before,
+td[id*="imageactioncontrol"].Icon.Quote a::before {
+  content: "\f10d";
+}
+.Icon.Menu::before,
+td[id*="imageactioncontrol"].Icon.Menu a::before {
+  content: "\f0c9";
+}
+.Icon.Bookmark::before,
+td[id*="imageactioncontrol"].Icon.Bookmark a::before {
+  content: "\f02e";
+}
+.Icon.Key::before,
+td[id*="imageactioncontrol"].Icon.Key a::before {
+  content: "\f084";
+}
+.Icon.Outbox::before {
+  content: "\f311";
+  font-weight: 400;
+}
+.Icon.Inbox::before {
+  content: "\f01c";
+}
+.Icon.CompareFiles::before,
+.Icon.Compare .Text_App_moduleBox_Header::before,
+.Content_Module_Group.Icon.Compare .Text_App_moduleBox_Header::before {
+  content: "\f24d";
+}
+
+.Icon.Folder::before,
+.Icon.Folder .Text_App_moduleBox_Header::before,
+.category_fav::before {
+  content: "\f07b";
+}
+
+.Icon.Users::before {
+  content: "\f0c0";
+}
+
+.Icon.File::before,
+.GSSO_Searchresult_Type.knowitArticle::before,
+.article_fav::before {
+  content: "\f15b";
+}
+
+.Icon.Read::before {
+  content: "\f518";
+}
+
+.Actionbar_Divider::after,
+.ActionbarDivider::after {
+  content: "|";
+  color: var(--darkblue20);
+  padding: 0 0 0 30px;
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 12px;
+}
+
+/* Description: New icons for KNOWit edit articles page */
+
+.Icon.ApproveFile::before {
+  content: "e5a0";
+  font-weight: 200; /* creates outlined version of Favourite icon */
+}
+
+/* below could be refactored/streamlined - need to check */
+
+.Link_Icon.showMore::before,
+.Link_Icon.ShowMore::before,
+.Icon.ShowMore::before,
+.Link_Icon.showLess::before,
+.Link_Icon.ShowLess::before,
+.Icon.ShowLess::before {
+  font-family: var(--font-awesome) !important;
+  color: var(--white);
+  margin-right: 6px;
+}
+
+.Link_Icon.showMore::before,
+.Link_Icon.ShowMore::before,
+.Icon.ShowMore::before {
+  content: "\f078";
+}
+
+.Link_Icon.showLess::before,
+.Link_Icon.ShowLess::before,
+.Icon.ShowLess::before {
+  content: "\f077";
+}
+
+.Link_Icon.showMore,
+.Link_Icon.showmore,
+.Link_Icon.showLess,
+.Link_Icon.showless,
+.Link_Icon.ShowMore,
+.Link_Icon.ShowLess,
+.Action.Icon.ShowMore,
+.Action.Icon.ShowLess {
+  color: var(--white);
+  background-color: var(--darkblue25);
+  padding: 3px 12px 4px 9px;
+  font-size: 0.875rem;
+  float: right;
+  margin-right: 10px;
+}
+
+.Link_Icon.showMore:hover,
+.Link_Icon.showmore:hover,
+.Link_Icon.showLess:hover,
+.Link_Icon.showless:hover,
+.Link_Icon.ShowMore:hover,
+.Link_Icon.ShowLess:hover,
+.Action.Icon.ShowMore:hover,
+.Action.Icon.ShowLess:hover,
+.Link_Icon.showMore:focus,
+.Link_Icon.showmore:focus,
+.Link_Icon.showLess:focus,
+.Link_Icon.showless:focus,
+.Link_Icon.ShowMore:focus,
+.Link_Icon.ShowLess:focus,
+.Action.Icon.ShowMore:focus,
+.Action.Icon.ShowLess:focus {
+  color: var(--white);
+  background-color: var(--grey);
+}
+
+/* 
+* Description: Creates asterisk icon before/in front of an element
+* Author: JefriAF
+
+*/
+.Icon.Required:before {
+  content: "*";
+  color: var(--warning-color);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+/* 
+* Description: Creates an underline on the icons in the Design System page > Layout > Icons
+* Author: ArajarDW
+
+*/
+
+.IconsContainer div {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+@media screen and (max-width: 780px) {
+  .IconsContainer div > .Icon {
+    margin-bottom: 1rem;
+  }
+}
+
+/* 
+
+* Description: For pseudo icons styles in "All articles" page buttons - testing
+* Since: 20230919
+* Author: ArajarDW
+
+*/
+.KNOWitClassification > span::before,
+.KNOWitClassification > label::before {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+  /* font-size: 1rem; */
+  margin-right: 1rem;
+  position: relative;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  top: -1px;
+  cursor: default;
+  vertical-align: middle;
+  padding: 0;
+}
+.KNOWitClassification > .KNOWit_Internal_Basf::before {
+  content: "\f3c1" !important;
+  color: #fff !important;
+}
+.KNOWitClassification > .KNOWit_Confidential::before {
+  content: "\f023" !important;
+  color: #f39500 !important;
+}
+.KNOWitClassification > .KNOWit_Internal::before {
+  content: "\f3c1" !important;
+  color: #65ac1e !important;
+}
+
+.KNOWit_Internal_Basf::before {
+  color: #fff !important;
+}
+.KNOWit_Confidential::before {
+  color: #f39500 !important;
+}
+.KNOWit_Internal::before {
+  color: #65ac1e !important;
+}
+
+/*END ICON STYLES */

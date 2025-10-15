@@ -1,69 +1,154 @@
 {
   "main": {
-    "id": "1208252db376bbce",
+    "id": "c4b96ebc4f25d0b6",
     "type": "split",
     "children": [
       {
-        "id": "9fd3ac266cdf75f1",
+        "id": "9d058bf50eadaeb9",
         "type": "tabs",
         "children": [
           {
+<<<<<<< HEAD
             "id": "d0c97b53be47a111",
+=======
+            "id": "38aada1789e8ef71",
+>>>>>>> d6d38184a5c685975ab8bed299d1ba5779e87a32
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "General/Feedback training.md",
+=======
+                "file": "Posting_db/Log-in work around.md",
+>>>>>>> d6d38184a5c685975ab8bed299d1ba5779e87a32
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Log-in work around"
+            }
+          },
+          {
+            "id": "2a093fe7f28e29b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Travel app planner idea.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Travel app planner idea"
+            }
+          },
+          {
+            "id": "49cbda3279a2e70b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BASF/Environment variables.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Environment variables"
+            }
+          },
+          {
+            "id": "4c73dbf4c5c9e00c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intrexx_migration/Font-awesome.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Font-awesome"
+            }
+          },
+          {
+            "id": "74a07b45f90f39b6",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Untitled 7.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled 7"
+            }
+          },
+          {
+            "id": "145626e36d5c110a",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Untitled 10.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled 10"
             }
           }
         ],
-        "stacked": true
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3a2346cbf8a40857",
+    "id": "6a7fe02e68dccb26",
     "type": "split",
     "children": [
       {
-        "id": "15a73b05093960bf",
+        "id": "4b6c46fdec450d92",
         "type": "tabs",
         "children": [
           {
-            "id": "4fd2ff55673b2b08",
+            "id": "2b8e4309fcb87bf5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
-            "id": "07fcef49e63241df",
+            "id": "5a0ace94a4df73e7",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Theming",
+                "query": "git rebase",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
-            "id": "4f9b466a613c6041",
+            "id": "8c64f4baca958c4b",
             "type": "leaf",
             "state": {
-              "type": "starred",
-              "state": {}
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -78,23 +163,27 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.50271224975586
+    "width": 389.5
   },
   "right": {
-    "id": "4c619935fdcd0d44",
+    "id": "297cdba8e424ec7a",
     "type": "split",
     "children": [
       {
-        "id": "40569b0895cfffdb",
+        "id": "ee4a71ca193c76a6",
         "type": "tabs",
         "children": [
           {
-            "id": "0377f6a986defd6a",
+            "id": "72d692099c2213b6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "General/Feedback training.md",
+=======
+                "file": "Akumina/01_Basic_installation.md",
+>>>>>>> d6d38184a5c685975ab8bed299d1ba5779e87a32
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,51 +191,75 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 01_Basic_installation"
             }
           },
           {
-            "id": "f8abd1b5a1b9de4a",
+            "id": "9a1386477cb4d863",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "General/Feedback training.md",
+=======
+>>>>>>> d6d38184a5c685975ab8bed299d1ba5779e87a32
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "86fbd75ac7c285e7",
+            "id": "201a069009e16cf3",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
-            "id": "8d76c88079d92576",
+            "id": "6defddbc9ea22ffa",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "General/Feedback training.md"
               }
+=======
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+>>>>>>> d6d38184a5c685975ab8bed299d1ba5779e87a32
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+<<<<<<< HEAD
+=======
+      "bases:Create new base": false,
+>>>>>>> d6d38184a5c685975ab8bed299d1ba5779e87a32
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -155,6 +268,7 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< HEAD
   "active": "d0c97b53be47a111",
   "lastOpenFiles": [
     "General/Feedback training.md",
@@ -173,5 +287,40 @@
     "React/02_Cheat_sheet.md",
     "React/01_Documentation.md",
     "React/Styled_components/Theming with styled components.md"
+=======
+  "active": "145626e36d5c110a",
+  "lastOpenFiles": [
+    "Untitled 9.base",
+    "Untitled 10.base",
+    "Untitled 8.base",
+    "Issues with Posting DB.md",
+    "Untitled 7.base",
+    "Intrexx_migration/Intrexx layout.md",
+    "Intrexx_migration/General.md",
+    "Untitled 6.base",
+    "Untitled 5.base",
+    "Untitled.canvas",
+    "Untitled 4.base",
+    "Untitled 3.base",
+    "Untitled 2.base",
+    "Untitled.md",
+    "Untitled 1.base",
+    "Untitled.base",
+    "Vue3/Vue & composables.md",
+    "Typescript/Typescript fundementals.md",
+    "Typescript/Best practices.md",
+    "Typescript/01_Typescript Basics.md",
+    "Vue - BASF setup/Vue_front_backend.md",
+    "a.md",
+    "Travel app planner idea.md",
+    "Posting_db/Log-in work around.md",
+    "UK/Boilers.md",
+    "quarticello spergola.md",
+    "BASF/Environment variables.md",
+    "Tailwind/Tailwind - to.md",
+    "Akumina/01_Basic_installation.md",
+    "BASF/Acronym fun.md",
+    "BASF/App Store.md"
+>>>>>>> d6d38184a5c685975ab8bed299d1ba5779e87a32
   ]
 }

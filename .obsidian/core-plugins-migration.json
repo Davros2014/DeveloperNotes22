@@ -26,5 +26,10 @@
   "publish": false,
   "sync": false,
   "canvas": true,
+<<<<<<< HEAD
   "bookmarks": true
+=======
+  "bookmarks": true,
+  "properties": false
+>>>>>>> d6d38184a5c685975ab8bed299d1ba5779e87a32
 }

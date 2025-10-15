@@ -15,7 +15,7 @@ A closure is a function that makes use of variables defined in an outer function
 	​  
 	function outer (a) {  
 	  return function inner (b) {  
-	    // the inner funciton is making use of the varibale "a"  
+	    // the inner function is making use of the varibale "a"  
 	    // which was defined in an outer function called "outer"  
 	    // by the time the einner function is called the outer function has returned  
 	    // this function called "inner" is a closure  
